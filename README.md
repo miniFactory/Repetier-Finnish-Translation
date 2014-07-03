@@ -21,3 +21,18 @@ mukaan vakiinnuttamaan tiettyä termistöä 3D-tulostuksen osa-alueille
 Suomessa.
 
 Kiitos etukäteen kaikille osallistuneille!
+
+Ohjeistus
+============================
+
+Suositeltu ohjelma muokkaamiseen on notepad++ http://notepad-plus-plus.org/
+
+fi.xml tiedosto sisältää kaikki ohjelmassa esiintyvät tekstit.
+Voit muokata käännöstä seuraavasti:
+
+Suomennoksen tekeminen - käännä teksti.
+esim.
+Rivi 246 <t id="TAB_PRINTER" ver="1">Printer</t>
+Muokkaa käännös: <t id="TAB_PRINTER" ver="1">Tulostin</t>
+
+Voit tarkistaa onko käännös tehty oikein avaamalla en.xml tiedoston ja vertaamalla fi.xml tiedostossa olevaa samaa riviä englanninkieliseen käännökseen.
