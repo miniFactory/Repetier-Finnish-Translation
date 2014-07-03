@@ -32,7 +32,8 @@ Voit muokata käännöstä seuraavasti:
 
 Suomennoksen tekeminen - käännä teksti.
 esim.
-Rivi 246 <t id="TAB_PRINTER" ver="1">Printer</t>
-Muokkaa käännös: <t id="TAB_PRINTER" ver="1">Tulostin</t>
+Rivi 246  id="TAB_PRINTER" ver="1">Printer
+Muokkaa käännös: id="TAB_PRINTER" ver="1">Tulostin
+ja tallenna muutos.
 
 Voit tarkistaa onko käännös tehty oikein avaamalla en.xml tiedoston ja vertaamalla fi.xml tiedostossa olevaa samaa riviä englanninkieliseen käännökseen.
