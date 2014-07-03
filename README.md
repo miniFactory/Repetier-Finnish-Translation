@@ -25,7 +25,7 @@ Kiitos etukäteen kaikille osallistuneille!
 Ohjeistus
 ============================
 
-Suositeltu ohjelma muokkaamiseen on notepad++ http://notepad-plus-plus.org/
+Avaa fi.xml tiedosto - klikkaa edit. Aloita muokkaus ja tallenna lopuksi tekemäsi muutokset sivun alareunasta.
 
 fi.xml tiedosto sisältää kaikki ohjelmassa esiintyvät tekstit.
 Voit muokata käännöstä seuraavasti:
