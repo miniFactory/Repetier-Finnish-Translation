@@ -1606,38 +1606,37 @@ so closing the gap.</t>
   </t>
 
   <t id="H_PS_OFFSET_Y" ver="11">
-    The offset of the extruder in Y direction for
-    multiple extruders, if they are not configured
-    within the firmware.
+    Extruuderin sijaintipoikkeama Y-akselin suuntaisesti, kun käytetään
+    useampaa extruuderia, ellei sitä ole määritetty erikseen firmwaressa.
   </t>
 
   <t id="H_PS_COLOR" ver="11">
-    This filament color is used for the preview.
+    Esikatselussa käytettävän tulostusnauhan väri.
   </t>
 
   <t id="H_PS_PRINTER_TYPE" ver="11">
-    Here you can set your printer type.
+    Tässä voit määrittää tulostimesi tyypin.
   </t>
 
   <t id="H_PS_HOME" ver="11">
-    Here you can set where the extruder is
-    after homing.
+    Tässä voit määrittää extruuderin sijainnin akseleiden
+    kotiuttamisen jälkeen.
   </t>
-  <t id="L_PRINT_BED" ver="11">Print bed</t>
-  <t id="L_DUMP_AREA" ver="11">Dump Area</t>
-  <t id="L_PRINTER_TYPE:" ver="11">Printer Type:</t>
-  <t id="L_START_GCODE" ver="11">Start G-Code</t>
-  <t id="L_END_GCODE" ver="11">End G-Code</t>
-  <t id="L_BEFORE_EXTRUDER_SWITCH" ver="11">Before Extruder Switch</t>
-  <t id="L_AFTER_EXTRUDER_SWITCH" ver="11">After Extruder Switch</t>
+  <t id="L_PRINT_BED" ver="11">Tulostusalue</t>
+  <t id="L_DUMP_AREA" ver="11">Lisäalue</t>
+  <t id="L_PRINTER_TYPE:" ver="11">Tulostimen tyyppi:</t>
+  <t id="L_START_GCODE" ver="11">Aloitus G-koodi</t>
+  <t id="L_END_GCODE" ver="11">Lopetus G-koodie</t>
+  <t id="L_BEFORE_EXTRUDER_SWITCH" ver="11">Ennen Extruderin vaihtoa</t>
+  <t id="L_AFTER_EXTRUDER_SWITCH" ver="11">Extruderin vaihdon jälkeen</t>
 <t id="L_INVERT_DIRECTION_FOR" ver="11">Invert Direction in Controls for</t>
-<t id="L_EXPORTING_MODEL_FOR_SLICING" ver="11">Exporting Model for Slicing ...</t>
-  <t id="L_MAX_VOLUME_PER_SECOND" ver="11">Max. Volume per second</t>
+<t id="L_EXPORTING_MODEL_FOR_SLICING" ver="11">Tuodaan malli viipalointia varten</t>
+  <t id="L_MAX_VOLUME_PER_SECOND" ver="11">Maksimi volyymi sekunnissa<t>
   <t id="H_PS_MAX_VOLUME_PER_SECOND" ver="11">
-    This value can be used from Slicers to limit
-    printing speed based on required volume throughput.
-    Normally you can print around 12mm³/s. The higher
-    the speed goes, the more heating and force is 
-    needed to push the filament grough the nozzle.
+    Tällä arvolla voidaan rajoittaa tulostusnopeutta vastaamaan
+    haluttua tuotantovolyymia. Normaali volyymi on noin 12mm³/s.
+    Mitä suuremmaksi tulostusnopeus kasvaa, sitä enemmän tarvitaan
+    lämmitystehoa ja syöttömoottorilta voimaa työntää tulostusnauha
+    suuttimen läpi.
   </t>
 </translation>
