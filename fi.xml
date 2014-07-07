@@ -186,27 +186,27 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_EDITOR_C" ver="1">C$1</t>
 <t id="L_EDITOR_R" ver="1">R$1</t>
 <t id="L_OVERWRITE" ver="1">Ylikirjoita</t>
-<t id="L_INSERT" ver="1">Insert</t>
-<t id="L_SYNTAX" ver="1">Syntax</t>
+<t id="L_INSERT" ver="1">Lisää</t>
+<t id="L_SYNTAX" ver="1">Syntaksi</t>
 <t id="TAB_HELP" ver="1">Ohje</t>
 <t id="TAB_VISUALIZATION" ver="1">Visualisointi</t>
-<t id="L_SHOW_COMPLETE_CODE" ver="1">Show complete Code</t>
-<t id="L_SHOW_LAYER_RANGE" ver="1">Show Layer Range</t>
-<t id="L_SHOW_SINGLE_LAYER" ver="1">Show Single Layer</t>
+<t id="L_SHOW_COMPLETE_CODE" ver="1">Näytä koko koodi</t>
+<t id="L_SHOW_LAYER_RANGE" ver="1">Näytä kerrosväli</t>
+<t id="L_SHOW_SINGLE_LAYER" ver="1">Näytä yksittäinen kerros</t>
 <t id="L_FIRST_LAYER" ver="1">Ensimmäinen taso:</t>
 <t id="L_LAST_LAYER" ver="1">Viimeinen taso:</t>
-<t id="L_REALLY_DELETE_PRINTER" ver="1">Do you realy want to delete all settings for $1?</t>
+<t id="L_REALLY_DELETE_PRINTER" ver="1">Haluatko varmasti tuhota kaikki asetukset kirjoittimelta $1?</t>
 <t id="L_SECURITY_QUESTION" ver="1">Turvakysymys</t>
 <t id="L_ADD_PRINTING_TIME" ver="1">Add to comp. Printing Time</t>
 <t id="L_BAUD_RATE" ver="1">Baudinopeus:</t>
 <t id="L_CACHE_SIZE_HINT" ver="1">From Arduino 1 on the receiving cache was reduced from 127 to 63 bytes!</t>
-<t id="L_CHECK_EVERY_X" ver="1">Check every $1 seconds.</t>
+<t id="L_CHECK_EVERY_X" ver="1">Tarkista joka $1 sekuntti.</t>
 <t id="L_CONNECTION_INFO" ver="1">The printer settings always correspond to the selected printer at the top. They
 are stored with every OK or apply. To create a new printer, just enter a new
 printer name and press apply. The new printer starts with the last settings
 selected.</t>
-<t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Default Extruder Temperature:</t>
-<t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Default Heated Bed Temperature:</t>
+<t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Oletus suuttimen lämpötila:</t>
+<t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Oletus tulostusalustan lämpötila:</t>
 <t id="L_DUMP_AREA_DEPTH" ver="1">Dump Area Depth:</t>
 <t id="L_DUMP_AREA_FRONT" ver="1">Dump Area Front:</t>
 <t id="L_DUMP_AREA_LEFT" ver="1">Dump Area Left:</t>
@@ -217,15 +217,15 @@ produced by the slicer. Use #in and #out to insert the input and output filename
 <t id="L_PARITY" ver="1">Parity:</t>
 <t id="L_PARK_POSITION" ver="1">Park Position:</t>
 <t id="L_PORT" ver="1">Port:</t>
-<t id="L_PRINT_AREA_DEPTH" ver="1">Print Area Depth:</t>
-<t id="L_PRINT_AREA_HEIGHT" ver="1">Print Area Height:</t>
-<t id="L_PRINT_AREA_WIDTH" ver="1">Print Area Width:</t>
-<t id="L_PRINTER" ver="1">Printer:</t>
+<t id="L_PRINT_AREA_DEPTH" ver="1">Tulostusalueen syvyys:</t>
+<t id="L_PRINT_AREA_HEIGHT" ver="1">Tulostusalueen korkeus:</t>
+<t id="L_PRINT_AREA_WIDTH" ver="1">Tulostusalueen leveys:</t>
+<t id="L_PRINTER" ver="1">Tulostin:</t>
 <t id="L_RECEIVE_CACHE_SIZE" ver="1">Receive Cache Size:</t>
 <t id="L_STOPBITS" ver="1">Stop Bits:</t>
 <t id="L_TRANSFER_PROTOCOL" ver="1">Transfer Protocol:</t>
 <t id="L_TRAVEL_FEED_RATE" ver="1">Travel Feed Rate:</t>
-<t id="L_ZFEED_RATE" ver="1">Z-Axis Feed Rate:</t>
+<t id="L_ZFEED_RATE" ver="1">Z-Akselin syöttönopeus:</t>
 <t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Disable Extruder after Job/Kill</t>
 <t id="L_DISABLE_MOTORS" ver="1">Disable Motors after Job/Kill</t>
 <t id="L_DISABLE_HEATED_BED_AFTER_JOB" ver="1">Disable Heated Bed after Job/Kill</t>
@@ -238,54 +238,54 @@ produced by the slicer. Use #in and #out to insert the input and output filename
 <t id="L_RUN_FILTER_EVERY_SLICE" ver="1">Run Filter after every Slice</t>
 <t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Check Extruder &amp;&amp; Bed Temperature</t>
 <t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Remove temperature requests from Log</t>
-<t id="B_CANCEL" ver="1">Cancel</t>
-<t id="B_APPLY" ver="1">Apply</t>
+<t id="B_CANCEL" ver="1">Peru</t>
+<t id="B_APPLY" ver="1">Hyväksy</t>
 <t id="B_OK" ver="1">OK</t>
-<t id="B_DELETE_PRINTER_SETTINGS" ver="1">Delete This Printer Setting</t>
-<t id="TAB_CONNECTION" ver="1">Connection</t>
-<t id="TAB_PRINTER" ver="1">Printer</t>
+<t id="B_DELETE_PRINTER_SETTINGS" ver="1">Poista tämä kirjoitinasetus</t>
+<t id="TAB_CONNECTION" ver="1">Yhteys</t>
+<t id="TAB_PRINTER" ver="1">Tulostin</t>
 <t id="TAB_PRINTER_SHAPE" ver="1">Printer Shape</t>
 <t id="TAB_ADVANCED" ver="1">Advanced</t>
-<t id="W_PRINTER_SETTINGS" ver="1">Printer Settings</t>
+<t id="W_PRINTER_SETTINGS" ver="1">Tulostusasetukset</t>
 <t id="L_POST_SLICE_FILTER" ver="1">Post Slice Filter</t>
 <t id="L_Z_MIN" ver="1">Z-Min</t>
 <t id="W_PRINT_PAUSED" ver="1">Print Paused</t>
 <t id="L_PAUSE_HINT" ver="1">Hint: You are allowed to move the extruder around and to extrude filament in order to change the filament or refill the nozzle if oozing occured. The host will restore the position at the start of the pause for you.</t>
-<t id="B_CONTINUE_PRINTING" ver="1">Continue Printing</t>
+<t id="B_CONTINUE_PRINTING" ver="1">Jatka tulostusta</t>
 <t id="W_REPETIER_HOST_UPDATE_CHECK" ver="1">Repetier-Host Update Check</t>
 <t id="B_DOWNLOAD" ver="1">Download</t>
 <t id="B_REMIND_ME_LATER" ver="1">Remind me Later</t>
-<t id="B_SKIP_VERSION" ver="1">Skip this Version</t>
-<t id="L_AVAILABLE_VERSION" ver="1">Version Available:</t>
-<t id="L_INSTALLED_VERSION" ver="1">Version Installed:</t>
-<t id="L_INFORMATION_ON_UPDATE" ver="1">Information on Update</t>
-<t id="L_NO_NEW_UPDATES" ver="1">No new updates available.
-You are using the latest version.</t>
-<t id="L_UPDATE_STATUS" ver="1">Update Status</t>
+<t id="B_SKIP_VERSION" ver="1">Ohita tämä versio</t>
+<t id="L_AVAILABLE_VERSION" ver="1">Versio käytettävissä:</t>
+<t id="L_INSTALLED_VERSION" ver="1">Versio asennettu:</t>
+<t id="L_INFORMATION_ON_UPDATE" ver="1">Tietoja päivityksestä</t>
+<t id="L_NO_NEW_UPDATES" ver="1">Ei uusia päivityksiä saatavilla.
+Käytössäsi on viimeisin versio.</t>
+<t id="L_UPDATE_STATUS" ver="1">Päivitä tila</t>
 <t id="W_SLICING_INFO" ver="1">Slicing Info</t>
-<t id="L_ACTION:" ver="1">Action:</t>
-<t id="L_DURATION:" ver="1">Duration:</t>
+<t id="L_ACTION:" ver="1">Toiminto:</t>
+<t id="L_DURATION:" ver="1">Kelsto:</t>
 <t id="L_SLICER:" ver="1">Slicer:</t>
 <t id="L_START_JOB_AFTER_SLICING" ver="1">Start Job after Slicing</t>
-<t id="W_ABOUT_REPETIER_HOST" ver="1">About Repetier-Host</t>
+<t id="W_ABOUT_REPETIER_HOST" ver="1">Tietoja Repetier-Hostista</t>
 <t id="L_LICENCE_AND_LIBRARIES" ver="1">Licence and Libraries</t>
 <t id="L_REPETIER_INFO" ver="1">This software was developed for controlling RepRap like 3D-printer. It is best used with Repetier-Firmware, which supports all features. Other printer firmware like Marlin, Teacup, Sprinter or 5D GCode interpreter should work with proper settings.</t>
-<t id="W_COPY_MARKED_OBJECTS" ver="1">Copy Marked Objects</t>
-<t id="L_NUMBER_OF_COPIES:" ver="1">Number of Copies:</t>
-<t id="L_AUTO_POSITION_AFTER_COPY" ver="1">Auto Position after Adding Objects</t>
-<t id="L_PRINTING_LAYER_X_OF_Y" ver="1">Printing layer $1 of $2</t>
+<t id="W_COPY_MARKED_OBJECTS" ver="1">Kopioi merkityt kappaleet</t>
+<t id="L_NUMBER_OF_COPIES:" ver="1">Kopioiden määrä:</t>
+<t id="L_AUTO_POSITION_AFTER_COPY" ver="1">Aseta paikat automaattisesti lisäämisen jälkeen</t>
+<t id="L_PRINTING_LAYER_X_OF_Y" ver="1">Tulostetaan kerrosta $1 / $2</t>
 <t id="L_BUILDING_PRINT_JOB..." ver="1">Building print job...</t>
-<t id="L_PRINTING..." ver="1">Printing...</t>
+<t id="L_PRINTING..." ver="1">Tulostetaan...</t>
 <t id="L_JOB_KILLED" ver="1">Job Killed</t>
 <t id="L_PRINTJOB_FINISHED_AT" ver="1">Printjob finished at $1</t>
-<t id="L_PRINTING_TIME:" ver="1">Printing Time:$1</t>
-<t id="L_LINES_SEND:X" ver="1">Lines Send:$1</t>
-<t id="L_FINISHED_IN" ver="1">Finished in $1</t>
+<t id="L_PRINTING_TIME:" ver="1">Tulostusaika:$1</t>
+<t id="L_LINES_SEND:X" ver="1">Lähetettyjä rivejä:$1</t>
+<t id="L_FINISHED_IN" ver="1">Valmistui $1</t>
 <t id="L_TIME_H:" ver="1">$1h:</t>
 <t id="L_TIME_M:" ver="1">$1m:</t>
 <t id="L_TIME_S" ver="1">$1s</t>
 <t id="W_FIRMWARE_EEPROM_SETTINGS" ver="1">Firmware EEPROM Settings</t>
-<t id="W_GCODE_NOT_FOUND" ver="1">Generated G-Code Not F:ound</t>
+<t id="W_GCODE_NOT_FOUND" ver="1">Generated G-Code Not Found</t>
 <t id="L_EXPECTED_FILENAME_AND_LOCATION" ver="1">Expected Filename and Location</t>
 <t id="L_GCODE_NOT_FOUND_INFO" ver="1">I could not find the generated G-code file.
 
