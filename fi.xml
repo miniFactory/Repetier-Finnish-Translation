@@ -7,127 +7,127 @@
 <t id="M_PRINTER" ver="1">Tulostin</t>
 <t id="M_HELP" ver="1">Ohje</t>
 <t id="M_LOAD_GCODE" ver="1">Lataa G-Koodi</t>
-<t id="M_SHOW_WORKDIRECTORY" ver="1">Näytä Työhakemisto</t>
+<t id="M_SHOW_WORKDIRECTORY" ver="1">Näytä työhakemisto</t>
 <t id="M_LANGUAGE" ver="1">Kieli</t>
-<t id="M_PRINTER_SETTINGS" ver="1">Tulostimen Asetukset</t>
-<t id="M_EEPROM_SETTINGS" ver="1">Firmware EEPROM Konfigurointi</t>
-<t id="M_3D_VIEWER_CONFIGURATION" ver="1">3D-Katselun Konfigurointi</t>
-<t id="M_REPETIER_SETTINGS" ver="1">Repetier Yleiset Asetukset</t>
+<t id="M_PRINTER_SETTINGS" ver="1">Tulostimen asetukset</t>
+<t id="M_EEPROM_SETTINGS" ver="1">Firmware EEPROM konfigurointi</t>
+<t id="M_3D_VIEWER_CONFIGURATION" ver="1">3D-Katselun konfigurointi</t>
+<t id="M_REPETIER_SETTINGS" ver="1">Repetier yleiset asetukset</t>
 <t id="M_TESTCASE_SETTINGS" ver="1">Test Case Slicing Parameter</t>
 <t id="M_SOUND_CONFIGURATION" ver="1">Ääniasetukset</t>
-<t id="M_SHOW_EXTRUDER_TEMPERATURES" ver="1">Näytä Extruderin Lämpötilat</t>
-<t id="M_SHOW_HEATED_BED_TEMPERATURES" ver="1">Näytä Tulostusalustan Lämpötilat</t>
-<t id="M_SHOW_TARGET_TEMPERATURES" ver="1">Näytä Tavoitelämpötilat</t>
-<t id="M_SHOW_AVERAGE_TEMPERATURES" ver="1">Näytä Lämpötilojen Keskiarvot</t>
-<t id="M_SHOW_HEATER_POWER" ver="1">Näytä Lämmitysteho</t>
-<t id="M_AUTOSCROLL_TEMPERATURE_VIEW" ver="1">Vieritä Automaattisesti Lämpötilanäkymää</t>
+<t id="M_SHOW_EXTRUDER_TEMPERATURES" ver="1">Näytä suuttimen lämpötilat</t>
+<t id="M_SHOW_HEATED_BED_TEMPERATURES" ver="1">Näytä tulostusalustan lämpötilat</t>
+<t id="M_SHOW_TARGET_TEMPERATURES" ver="1">Näytä tavoitelämpötilat</t>
+<t id="M_SHOW_AVERAGE_TEMPERATURES" ver="1">Näytä lämpötilojen leskiarvot</t>
+<t id="M_SHOW_HEATER_POWER" ver="1">Näytä lämmitysteho</t>
+<t id="M_AUTOSCROLL_TEMPERATURE_VIEW" ver="1">Vieritä lämpötilanäkymää automaattisesti</t>
 <t id="M_TIMEPERIOD" ver="1">Aikajakso</t>
 <t id="M_TEMPERATURE_ZOOM" ver="1">Zoomaus</t>
 <t id="M_BUILD_AVERAGE_OVER" ver="1">Build Average over ...</t>
-<t id="M_30_SECONDS" ver="1">30 Sekuntia</t>
-<t id="M_1_MINUTE" ver="1">1 Minuutti</t>
-<t id="M_2_Minuuttia" ver="1">2 Minuuttia</t>
-<t id="M_5_Minuuttia" ver="1">5 Minuuttia</t>
-<t id="M_10_Minuuttia" ver="1">10 Minuuttia</t>
-<t id="M_15_Minuuttia" ver="1">15 Minuuttia</t>
-<t id="M_30_Minuuttia" ver="1">30 Minuuttia</t>
-<t id="M_60_Minuuttia" ver="1">60 Minuuttia</t>
-<t id="M_CONTINUOUS_MONITORING" ver="1">Jatkuva Tarkastelu</t>
-<t id="M_DISABLE" ver="1">Poista Käytöstä</t>
-<t id="M_EXTRUDER_1" ver="1">Extruder 1</t>
-<t id="M_EXTRUDER_2" ver="1">Extruder 2</t>
+<t id="M_30_SECONDS" ver="1">30 sekuntia</t>
+<t id="M_1_MINUTE" ver="1">1 minuutti</t>
+<t id="M_2_Minuuttia" ver="1">2 minuuttia</t>
+<t id="M_5_Minuuttia" ver="1">5 minuuttia</t>
+<t id="M_10_Minuuttia" ver="1">10 minuuttia</t>
+<t id="M_15_Minuuttia" ver="1">15 minuuttia</t>
+<t id="M_30_Minuuttia" ver="1">30 minuuttia</t>
+<t id="M_60_Minuuttia" ver="1">60 minuuttia</t>
+<t id="M_CONTINUOUS_MONITORING" ver="1">Jatkuva valvonta</t>
+<t id="M_DISABLE" ver="1">Poista käytöstä</t>
+<t id="M_EXTRUDER_1" ver="1">Suutin 1</t>
+<t id="M_EXTRUDER_2" ver="1">Suutin 2</t>
 <t id="M_HEATED_BED" ver="1">Tulostusalusta</t>
-<t id="M_PRINTER_INFORMATION" ver="1">Tulostimen Tiedot</t>
-<t id="M_JOB_STATUS" ver="1">Työn Tila</t>
-<t id="M_SD_CARD_MANAGER" ver="1">SD-Kortin Hallinta</t>
-<t id="L_SD_CARD_MANAGEMENT" ver="1">SD-Kortin Hallinta</t>
+<t id="M_PRINTER_INFORMATION" ver="1">Tulostimen tiedot</t>
+<t id="M_JOB_STATUS" ver="1">Työn tila</t>
+<t id="M_SD_CARD_MANAGER" ver="1">SD-Kortin hallinta</t>
+<t id="L_SD_CARD_MANAGEMENT" ver="1">SD-Kortin hallinta</t>
 <t id="M_TEST_CASE_GENERATOR" ver="1">Test Case Generator</t>
-<t id="M_SEND_SCRIPT_1" ver="1">Lähetä Skripti 1</t>
-<t id="M_SEND_SCRIPT_2" ver="1">Lähetä Skripti 2</t>
-<t id="M_SEND_SCRIPT_3" ver="1">Lähetä Skripti 3</t>
-<t id="M_SEND_SCRIPT_4" ver="1">Lähetä Skripti 4</t>
-<t id="M_SEND_SCRIPT_5" ver="1">Lähetä Skripti 5</t>
-<t id="M_REPETIER_HOST_HOMEPAGE" ver="1">Repetier-Host Kotisivu</t>
-<t id="M_REPETIER_HOST_DOWNLOAD_PAGE" ver="1">Repetier-Host Lataaminen</t>
-<t id="M_MANUAL" ver="1">Repetier-Host Käyttöohje</t>
-<t id="M_SLIC3R_HOMEPAGE" ver="1">Slic3r Kotisivu</t>
-<t id="M_SKEINFORGE_HOMEPAGE" ver="1">Skeinforge Kotisivu</t>
-<t id="M_REPRAP_WEBSITE" ver="1">RepRap Kotisivu</t>
-<t id="M_REPRAP_FORUM" ver="1">RepRap Foorumit</t>
-<t id="M_THINGIVERSE_NEWEST" ver="1">Thingiverse Uusimmat 3D-Mallit</t>
-<t id="M_THINGIVERSE_POPULAR" ver="1">Thingiverse Suosituimmat 3D-Mallit</t>
+<t id="M_SEND_SCRIPT_1" ver="1">Lähetä skripti 1</t>
+<t id="M_SEND_SCRIPT_2" ver="1">Lähetä skripti 2</t>
+<t id="M_SEND_SCRIPT_3" ver="1">Lähetä skripti 3</t>
+<t id="M_SEND_SCRIPT_4" ver="1">Lähetä skripti 4</t>
+<t id="M_SEND_SCRIPT_5" ver="1">Lähetä skripti 5</t>
+<t id="M_REPETIER_HOST_HOMEPAGE" ver="1">Repetier-Host kotisivu</t>
+<t id="M_REPETIER_HOST_DOWNLOAD_PAGE" ver="1">Repetier-Host lataaminen</t>
+<t id="M_MANUAL" ver="1">Repetier-Host käyttöohje</t>
+<t id="M_SLIC3R_HOMEPAGE" ver="1">Slic3r kotisivu</t>
+<t id="M_SKEINFORGE_HOMEPAGE" ver="1">Skeinforge kotisivu</t>
+<t id="M_REPRAP_WEBSITE" ver="1">RepRap kotisivu</t>
+<t id="M_REPRAP_FORUM" ver="1">RepRap foorumit</t>
+<t id="M_THINGIVERSE_NEWEST" ver="1">Thingiverse uusimmat 3D-mallit</t>
+<t id="M_THINGIVERSE_POPULAR" ver="1">Thingiverse suosituimmat 3D-mallit</t>
 <t id="M_ABOUT_REPETIER_HOST" ver="1">Tietoja Repetier-Hostista</t>
-<t id="M_CHECK_FOR_UPDATES" ver="1">Tarkista Päivitykset</t>
-<t id="L_DISCONNECT_PRINTER" ver="1">Katkaise Yhteys Tulostimeen</t>
-<t id="L_CONNECT_PRINTER" ver="1">Yhdistä Tulostimeen</t>
-<t id="M_DISCONNECT" ver="1">Katkaise Yhteys</t>
+<t id="M_CHECK_FOR_UPDATES" ver="1">Tarkista päivitykset</t>
+<t id="L_DISCONNECT_PRINTER" ver="1">Katkaise yhteys tulostimeen</t>
+<t id="L_CONNECT_PRINTER" ver="1">Yhdistä tulostimeen</t>
+<t id="M_DISCONNECT" ver="1">Katkaise yhteys</t>
 <t id="M_CONNECT" ver="1">Yhdistä</t>
 <t id="M_QUIT" ver="1">Lopeta</t>
-<t id="TAB_3D_VIEW" ver="1">3D-Katselu</t>
+<t id="TAB_3D_VIEW" ver="1">3D-katselu</t>
 <t id="TAB_TEMPERATURE_CURVE" ver="1">Lämpötilakäyrät</t>
-<t id="TAB_OBJECT_PLACEMENT" ver="1">Objektin Asettelu</t>
+<t id="TAB_OBJECT_PLACEMENT" ver="1">Kappaleen asettelu</t>
 <t id="TAB_SLICER" ver="1">Slicer</t>
-<t id="TAB_GCODE_EDITOR" ver="1">G-Koodin Muokkain</t>
+<t id="TAB_GCODE_EDITOR" ver="1">G-koodin muokkain</t>
 <t id="TAB_MANUAL_CONTROL" ver="1">Käsiajo</t>
 <t id="M_EMERGENCY_STOP" ver="1">Hätäseis</t>
 <t id="M_LOAD" ver="1">Lataa</t>
-<t id="M_SAVE_JOB" ver="11">Tallenna Tulostus</t>
-<t id="M_RUN_JOB" ver="11">Aloita Tulostus</t>
-<t id="M_PAUSE_JOB" ver="11">Tauota Tulostus</t>
-<t id="M_KILL_JOB" ver="11">Lopeta Tulostus</t>
-<t id="M_SD_CARD" ver="1">SD-Kortti</t>
-<t id="M_TOGGLE_LOG" ver="1">Näytä Loki</t>
-<t id="M_SHOW_FILAMENT" ver="1">Näytä Tulostusnauha</t>
-<t id="M_HIDE_FILAMENT" ver="1">Piilota Tulostusnauha</t>
-<t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Tulostusnauhan Visualisointi Pois Käytöstä</t>
-<t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Tulostusnauhan Visualisointi Käytössä</t>
-<t id="L_LOAD_FILE" ver="1">Lataa Tiedosto</t>
-<t id="L_IMPORT_G_CODE" ver="1">Tuo G-Koodi</t>
-<t id="L_SAVE_G_CODE" ver="1">Tallenna G-Koodi</t>
+<t id="M_SAVE_JOB" ver="11">Tallenna tulostus</t>
+<t id="M_RUN_JOB" ver="11">Aloita tulostus</t>
+<t id="M_PAUSE_JOB" ver="11">Tauota tulostus</t>
+<t id="M_KILL_JOB" ver="11">Lopeta tulostus</t>
+<t id="M_SD_CARD" ver="1">SD-kortti</t>
+<t id="M_TOGGLE_LOG" ver="1">Näytä loki</t>
+<t id="M_SHOW_FILAMENT" ver="1">Näytä tulostusnauha</t>
+<t id="M_HIDE_FILAMENT" ver="1">Piilota tulostusnauha</t>
+<t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Tulostusnauhan visualisointi pois käytöstä</t>
+<t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Tulostusnauhan visualisointi käytössä</t>
+<t id="L_LOAD_FILE" ver="1">Lataa tiedosto</t>
+<t id="L_IMPORT_G_CODE" ver="1">Tuo G-koodi</t>
+<t id="L_SAVE_G_CODE" ver="1">Tallenna G-koodi</t>
 <t id="L_ERROR" ver="1">Virhe</t>
 <t id="L_PAUSE_MSG" ver="1">Paina OK jatkaaksesi.
 Voit määrittää taukoja tulostukseen lisäämällä 
 komennon @pause haluttuun kohtaan G-koodia.</t>
-<t id="L_DISCONNECTED" ver="1">Yhteys Katkaistu</t>
+<t id="L_DISCONNECTED" ver="1">Yhteys katkaistu</t>
 <t id="L_UPDATING..." ver="1">Päivittää ...</t>
 <t id="L_SLICE_WITH" ver="1">Slice with $1</t>
-<t id="L_EMERGENCY_STOP_MSG" ver="1">Send emergency stop to printer. You may need to reset the printer for a restart!</t>
+<t id="L_EMERGENCY_STOP_MSG" ver="1">Lähetä hätäseis tulostimelleS. Voit joutua nollaamaan tulostimen jatkaaksesi!</t>
 <t id="L_TRANSLATION:" ver="1">Käännös</t>
 <t id="L_SCALE:" ver="1">Skaalaus</t>
 <t id="L_ROTATE:" ver="1">Pyöritys</t>
-<t id="L_STL_OBJECTS" ver="9">Objektit</t>
+<t id="L_STL_OBJECTS" ver="9">Kappaleet</t>
 <t id="B_SAVE_AS_STL" ver="9">Vie</t>
-<t id="B_REMOVE_STL_OBJECT" ver="1">Poista Objekti</t>
-<t id="B_ADD_STL_OBJECT" ver="1">Lisää Objekti</t>
-<t id="B_AUTOPOSITION" ver="1">Automaattinen Asettelu</t>
-<t id="B_DROP_OBJECT" ver="1">Drop Object</t>
-<t id="B_COPY_OBJECTS" ver="1">Kopioi Objekti(t)</t>
-<t id="B_CENTER_OBJECT" ver="1">Keskitä Objekti</t>
-<t id="L_LOCK_ASPECT_RATIO" ver="1">Lukitse Sivusuhde</t>
-<t id="B_KILL_SLICING_PROCESS" ver="1">Lopeta Slicing</t>
+<t id="B_REMOVE_STL_OBJECT" ver="1">Poista kappale</t>
+<t id="B_ADD_STL_OBJECT" ver="1">Lisää kappale</t>
+<t id="B_AUTOPOSITION" ver="1">Automaattinen asettelu</t>
+<t id="B_DROP_OBJECT" ver="1">Pudota kappale</t>
+<t id="B_COPY_OBJECTS" ver="1">Kopioi kappale(et)</t>
+<t id="B_CENTER_OBJECT" ver="1">Keskitä kappale</t>
+<t id="L_LOCK_ASPECT_RATIO" ver="1">Lukitse sivusuhde</t>
+<t id="B_KILL_SLICING_PROCESS" ver="1">Lopeta slicing</t>
 <t id="B_SETUP_SKEINFORGE" ver="1">Asetukset</t>
 <t id="B_SETUP_SLIC3R" ver="1">Asetukset</t>
 <t id="B_CONFIGURE_SKEINFORGE" ver="1">Konfigurointi</t>
 <t id="B_CONFIGURE_SLIC3R" ver="1">Konfigurointi</t>
 <t id="B_ACTIVE" ver="1">Aktiivinen</t>
-<t id="L_FILAMENT_SETTINGS" ver="1">Tulostusnauhan Asetukset:</t>
-<t id="L_PRINTER_SETTINGS" ver="1">Tulostimen Asetukset:</t>
+<t id="L_FILAMENT_SETTINGS" ver="1">Tulostusnauhan asetukset:</t>
+<t id="L_PRINTER_SETTINGS" ver="1">Tulostimen asetukset:</t>
 <t id="L_PRINT_SETTINGS" ver="1">Tulostusasetukset:</t>
 <t id="L_PROFILE" ver="1">Profiili:</t>
 <t id="B_SEND" ver="1">Lähetä</t>
 <t id="B_SIMULATE_OK" ver="1">OK</t>
-<t id="B_STOP_MOTOR" ver="1">Sammuta Moottorit</t>
+<t id="B_STOP_MOTOR" ver="1">Sammuta moottorit</t>
 <t id="B_PARK" ver="1">Park</t>
 <t id="B_RETRACT" ver="1">Retract</t>
 <t id="B_EXTRUDE" ver="1">Extrude</t>
 <t id="L_OUTPUT_PERCENT" ver="1">Ulostulo $1%</t>
 <t id="B_POWER" ver="1">Virta</t>
-<t id="B_HEAT_EXTRUDER" ver="1">Lämmitä Extruder</t>
-<t id="B_HEAT_PRINTBED" ver="1">Lämmitä Printbed</t>
+<t id="B_HEAT_EXTRUDER" ver="1">Lämmitä suutin</t>
+<t id="B_HEAT_PRINTBED" ver="1">Lämmitä tulostusalusta</t>
 <t id="B_FAN" ver="1">Tuuletin</t>
 <t id="B_DEBUG_ERRORS" ver="1">Virheet</t>
 <t id="B_DEBUG_ECHO" ver="1">Kaiku</t>
-<t id="B_DRY_RUN" ver="1">Kuiva-ajo</t>
+<t id="B_DRY_RUN" ver="1">Testiajo</t>
 <t id="B_DEBUG_INFO" ver="1">Info</t>
 <t id="L_EXTRUDER" ver="1">Extruder</t>
 <t id="L_PRINTBED" ver="1">Tulostusalusta</t>
@@ -137,16 +137,16 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_RETRACT_MM" ver="1">Retract [mm]</t>
 <t id="L_TEMP" ver="1">Lämpötila </t>
 <t id="L_CONNECTED" ver="1">Yhdistetty</t>
-<t id="L_HEATING_BED" ver="1">Lämmittää Tulostusalustaa</t>
-<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää Extruderia</t>
-<t id="L_PRINT_JOB_KILLED" ver="1">Tulostustyö Lopetettu</t>
-<t id="L_PRINT_JOB_PAUSED" ver="1">Tulostustyö Tauotettu</t>
-<t id="L_PRINT_JOB_FINISHED" ver="1">Tulostustyö Valmis</t>
+<t id="L_HEATING_BED" ver="1">Lämmittää tulostusalustaa</t>
+<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää extruderia</t>
+<t id="L_PRINT_JOB_KILLED" ver="1">Tulostustyö lopetettu</t>
+<t id="L_PRINT_JOB_PAUSED" ver="1">Tulostustyö tauotettu</t>
+<t id="L_PRINT_JOB_FINISHED" ver="1">Tulostustyö valmis</t>
 <t id="L_UPLOADING..." ver="1">Lähettää ... $1%</t>
 <t id="L_PRINTING_JOB_ETA" ver="1">Tulostustyön ETA $1</t>
 <t id="L_IDLE" ver="1">Idle</t>
-<t id="L_X_COMMANDS_WAITING" ver="1">$1 Komento Jonossa</t>
-<t id="L_EXTRUDER:" ver="1">Extruder:</t>
+<t id="L_X_COMMANDS_WAITING" ver="1">$1 Komento jonossa</t>
+<t id="L_EXTRUDER:" ver="1">Suutin:</t>
 <t id="L_BED:" ver="1">Tulostusalusta:</t>
 <t id="L_OFF" ver="1">Off</t>
 <t id="L_NOT_A_NUMBER" ver="1">Ei ole lukuarvo</t>
@@ -167,10 +167,10 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_LOG_INFO" ver="1">Infot</t>
 <t id="B_LOG_WARNINGS" ver="1">Varoitukset</t>
 <t id="B_COPY" ver="1">Kopioi</t>
-<t id="B_CLEAR_LOG" ver="1">Tyhjää Loki</t>
+<t id="B_CLEAR_LOG" ver="1">Tyhjää loki</t>
 <t id="L_COPY" ver="1">Kopioi</t>
 <t id="L_CUT" ver="1">Leikkaa</t>
-<t id="L_NEW_TEXT" ver="1">Uusi Teksti</t>
+<t id="L_NEW_TEXT" ver="1">Uusi teksti</t>
 <t id="L_SAVE" ver="1">Tallenna</t>
 <t id="L_PASTE" ver="1">Liitä</t>
 <t id="L_UNDO" ver="1">Kumoa</t>
@@ -178,11 +178,11 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_AUTO_UPDATE_PREVIEW" ver="1">Päivitä esikatselu automaattisesti</t>
 <t id="L_START_CODE" ver="1">Start Code</t>
 <t id="L_END_CODE" ver="1">End Code</t>
-<t id="L_RUN_ON_KILL" ver="1">Suorita Lopetettaessa</t>
-<t id="L_RUN_ON_PAUSE" ver="1">Suorita Tauotettaessa</t>
+<t id="L_RUN_ON_KILL" ver="1">Suorita lopetettaessa</t>
+<t id="L_RUN_ON_PAUSE" ver="1">Suorita tauotettaessa</t>
 <t id="L_SCRIPT_X" ver="1">Skripti $1</t>
 <t id="L_LAYER_X" ver="1">Kerros $1</t>
-<t id="L_EXTRUDER_X" ver="1">Extruder $1</t>
+<t id="L_EXTRUDER_X" ver="1">Suutin $1</t>
 <t id="L_EDITOR_C" ver="1">C$1</t>
 <t id="L_EDITOR_R" ver="1">R$1</t>
 <t id="L_OVERWRITE" ver="1">Ylikirjoita</t>
@@ -193,12 +193,12 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_SHOW_COMPLETE_CODE" ver="1">Show complete Code</t>
 <t id="L_SHOW_LAYER_RANGE" ver="1">Show Layer Range</t>
 <t id="L_SHOW_SINGLE_LAYER" ver="1">Show Single Layer</t>
-<t id="L_FIRST_LAYER" ver="1">First Layer:</t>
-<t id="L_LAST_LAYER" ver="1">Last Layer:</t>
+<t id="L_FIRST_LAYER" ver="1">Ensimmäinen taso:</t>
+<t id="L_LAST_LAYER" ver="1">Viimeinen taso:</t>
 <t id="L_REALLY_DELETE_PRINTER" ver="1">Do you realy want to delete all settings for $1?</t>
-<t id="L_SECURITY_QUESTION" ver="1">Security Question</t>
+<t id="L_SECURITY_QUESTION" ver="1">Turvakysymys</t>
 <t id="L_ADD_PRINTING_TIME" ver="1">Add to comp. Printing Time</t>
-<t id="L_BAUD_RATE" ver="1">Baud Rate:</t>
+<t id="L_BAUD_RATE" ver="1">Baudinopeus:</t>
 <t id="L_CACHE_SIZE_HINT" ver="1">From Arduino 1 on the receiving cache was reduced from 127 to 63 bytes!</t>
 <t id="L_CHECK_EVERY_X" ver="1">Check every $1 seconds.</t>
 <t id="L_CONNECTION_INFO" ver="1">The printer settings always correspond to the selected printer at the top. They
