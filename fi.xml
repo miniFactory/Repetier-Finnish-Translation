@@ -151,7 +151,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_OFF" ver="1">Off</t>
 <t id="L_NOT_A_NUMBER" ver="1">Ei ole lukuarvo</t>
 <t id="L_POSITIVE_NUMBER_REQUIRED" ver="1">Positiivinen lukuarvo vaaditaan</t>
-<t id="L_NOT_AN_INTEGER" ver="1">Ei ole kokonaisuluku</t>
+<t id="L_NOT_AN_INTEGER" ver="1">Ei ole kokonaisluku</t>
 <t id="L_RESET_OUTPUT" ver="1">Nollaa ulostulo. Lyhyen odottamisen jälkeen, sain vain $1</t>
 <t id="L_RECEIVING_ONLY_ERRORS" ver="1">Vastaanotetaan vain virhekomentoja. Kommunikointi loptetettu.</t>
 <t id="L_PRINTING..ETA" ver="1">Tulostaa...ETA $1</t>
@@ -223,8 +223,8 @@ produced by the slicer. Use #in and #out to insert the input and output filename
 <t id="L_PRINTER" ver="1">Tulostin:</t>
 <t id="L_RECEIVE_CACHE_SIZE" ver="1">Receive Cache Size:</t>
 <t id="L_STOPBITS" ver="1">Stop Bits:</t>
-<t id="L_TRANSFER_PROTOCOL" ver="1">Transfer Protocol:</t>
-<t id="L_TRAVEL_FEED_RATE" ver="1">Travel Feed Rate:</t>
+<t id="L_TRANSFER_PROTOCOL" ver="1">Tiedonsiirtoprotokolla:</t>
+<t id="L_TRAVEL_FEED_RATE" ver="1">Siirtymän nopeus:</t>
 <t id="L_ZFEED_RATE" ver="1">Z-Akselin syöttönopeus:</t>
 <t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Disable Extruder after Job/Kill</t>
 <t id="L_DISABLE_MOTORS" ver="1">Disable Motors after Job/Kill</t>
@@ -303,31 +303,31 @@ old log file! The logfile conatins all communication with the printer, even if d
 view. Logging changes are active after next start.</t>
 <t id="L_LOG_SESSION" ver="1">Log Session</t>
 <t id="REDUCE_TOOLBAR_SIZE" ver="1">Reduce Toolbar Size</t>
-<t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Disable Quality Reduction</t>
+<t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Poista laadun heikennys käytöstä</t>
 <t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Existing work directory required!</t>
-<t id="L_WORKDIR:" ver="1">Workdirectory:</t>
-<t id="B_BROWSE" ver="1">Browse...</t>
-<t id="L_SELECT_WORKING_DIRECTORY" ver="1">Select Working Directory</t>
-<t id="L_PAST_60_Minuuttia" ver="1">Past 60 Minuuttia</t>
-<t id="W_3D_VISUALIZATION_SETTINGS" ver="1">3D Visualization Settings</t>
-<t id="L_COLORS" ver="1">Colors</t>
-<t id="L_EDITOR" ver="1">Editor</t>
-<t id="L_VISUALIZATION" ver="1">Visualization:</t>
+<t id="L_WORKDIR:" ver="1">Työhakemisto:</t>
+<t id="B_BROWSE" ver="1">Selaa...</t>
+<t id="L_SELECT_WORKING_DIRECTORY" ver="1">Valitse työhakemisto</t>
+<t id="L_PAST_60_Minuuttia" ver="1">Viimeiset 60 Minuuttia</t>
+<t id="W_3D_VISUALIZATION_SETTINGS" ver="1">3D visualisointi -asetukset</t>
+<t id="L_COLORS" ver="1">Värit</t>
+<t id="L_EDITOR" ver="1">Editori</t>
+<t id="L_VISUALIZATION" ver="1">Visualisointi:</t>
 <t id="L_AMBIENT_COLOR" ver="1">Ambient Color:</t>
-<t id="L_BACKGROUND" ver="1">Background:</t>
+<t id="L_BACKGROUND" ver="1">Tausta:</t>
 <t id="L_DIFFUSE_COLOR" ver="1">Diffuse Color:</t>
 <t id="L_DRAW_METHOD" ver="1">Draw Method:</t>
 <t id="L_EDGES" ver="1">Edges:</t>
-<t id="L_EXTRUDER_X:" ver="1">Extruder $1:</t>
+<t id="L_EXTRUDER_X:" ver="1">Suutin $1:</t>
 <t id="L_FACES" ver="1">Faces:</t>
 <t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">The shape of the filament is computed either by layer height and width over thickness or from the
 filament diameter, width over thickness and E values in the G-Code. The second version gives
 better results, if the layer height changes, which can happen in newer Skeinforge versions.</t>
 <t id="L_FILAMENT_VISUALIZATION" ver="1">Filament Visualization:</t>
-<t id="L_HOT_FILAMENT" ver="1">Hot Filament:</t>
-<t id="L_HOT_FILAMENT_LENGTH" ver="1">Hot Filament Length:</t>
-<t id="L_LIGHT_X" ver="1">Light $1</t>
-<t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Objects Outside Print Bed:</t>
+<t id="L_HOT_FILAMENT" ver="1">Kuuma muovi:</t>
+<t id="L_HOT_FILAMENT_LENGTH" ver="1">Kuuman muovin pituus:</t>
+<t id="L_LIGHT_X" ver="1">Valo $1</t>
+<t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Kappale tulostusalueen ulkopuolella</t>
 <t id="L_PRINTER_BASE" ver="1">Printer Base:</t>
 <t id="L_SELECTED_FACES" ver="1">Selected Faces:</t>
 <t id="L_SELECTED_FILAMENT" ver="1">Selected Filament:</t>
@@ -342,10 +342,10 @@ better results, if the layer height changes, which can happen in newer Skeinforg
 <t id="L_SHOW_FACES" ver="1">Show Faces</t>
 <t id="L_SHOW_PRINTBED" ver="1">Show Print Bed</t>
 <t id="L_PULSE_OBJECT_IF_NOT_PRINTABLE" ver="1">Pulse if Object not Printable</t>
-<t id="TAB_GENERAL" ver="1">General</t>
+<t id="TAB_GENERAL" ver="1">Yleinen</t>
 <t id="TAB_FILAMENT" ver="1">Filament</t>
-<t id="TAB_MODEL" ver="1">Model</t>
-<t id="TAB_LIGHTS" ver="1">Lights</t>
+<t id="TAB_MODEL" ver="1">Malli</t>
+<t id="TAB_LIGHTS" ver="1">Valot</t>
 <t id="L_LAYER_HEIGHT" ver="1">Layer Height:</t>
 <t id="L_FILAMENT_DIAMETER" ver="1">Filament Diameter:</t>
 <t id="L_DRAW_METHOD_AUTODETECT" ver="1">Autodetect Best</t>
@@ -362,7 +362,7 @@ better results, if the layer height changes, which can happen in newer Skeinforg
 <t id="L_NO_JOB_DEFINED" ver="1">No Job Defined</t>
 <t id="L_RUNNING..." ver="1">Running ...</t>
 <t id="L_FINISHED" ver="1">Finished</t>
-<t id="L_ABORTED" ver="1">Aborted</t>
+<t id="L_ABORTED" ver="1">Keskeytetty</t>
 <t id="W_PRINTER_INFO" ver="1">Printer Information</t>
 <t id="L_CONNECTION_INFORMATION" ver="1">Connection Information</t>
 <t id="L_PRINTER_DATA" ver="1">Printer Data</t>
@@ -402,7 +402,7 @@ better results, if the layer height changes, which can happen in newer Skeinforg
 <t id="L_DELETE_FAILED" ver="1">Delete Failed</t>
 <t id="L_UPLOADING_FILE..." ver="1">Uploading File ...</t>
 <t id="L_FIRMWARE_NO_DELETE" ver="1">Your firmware doesn't implement file delete or has an unknown implementation.</t>
-<t id="L_PRINT_ABORTED" ver="1">Print Aborted</t>
+<t id="L_PRINT_ABORTED" ver="1">TUlostus keskeytetty</t>
 <t id="L_PRINT_PAUSED" ver="1">Print Paused</t>
 <t id="L_REMOVE_SD_CARD" ver="1">You can remove the sd card.</t>
 <t id="L_INFORMATION" ver="1">Information</t>
@@ -528,22 +528,22 @@ Write Changes to EEPROM?</t>
 <t id="L_CNC_ROUTER" ver="8">CNC Router</t>
 <t id="L_SLIC3R_VERSION" ver="8">Slic3r Version</t>
 <t id="L_MODEL_ERRORS" ver="9">Model Errors:</t>
-<t id="L_SPLIT" ver="9">Split</t>
-<t id="L_YES" ver="9">Yes</t>
-<t id="L_NO" ver="9">No</t>
+<t id="L_SPLIT" ver="9">Jaa</t>
+<t id="L_YES" ver="9">Kyllä</t>
+<t id="L_NO" ver="9">Ei</t>
 <t id="L_MODEL_CHANGED_RELOAD" ver="9"><![CDATA[One or more objects files are changed.
 Reload objects?]]></t>
-<t id="L_FILES_CHANGED" ver="9">Files changed</t>
+<t id="L_FILES_CHANGED" ver="9">Tiedostot muuttuneet/t>
 <t id="L_INNER_FACES" ver="9">Inner faces:</t>
 <t id="L_BACKGROUND_TOP" ver="9">Background Top:</t>
 <t id="L_BACKGROUND_BOTTOM" ver="9">Background Bottom:</t>
 <t id="L_PRINTER_FRAME" ver="9">Printer Frame:</t>
 <t id="L_ISOMETRIC_VIEW" ver="9">Isometric View</t>
-<t id="L_BOTTOM_VIEW" ver="9">Bottom View</t>
-<t id="L_LEFT_VIEW" ver="9">Left View</t>
-<t id="L_RIGHT_VIEW" ver="9">Right View</t>
-<t id="L_FRONT_VIEW" ver="9">Front View</t>
-<t id="L_BACK_VIEW" ver="9">Back View</t>
+<t id="L_BOTTOM_VIEW" ver="9">Näkymä alhaalta</t>
+<t id="L_LEFT_VIEW" ver="9">Näkymä vasemmalta</t>
+<t id="L_RIGHT_VIEW" ver="9">Näkymä oikealta</t>
+<t id="L_FRONT_VIEW" ver="9">Näkymä edestä</t>
+<t id="L_BACK_VIEW" ver="9">Näkymä takaa</t>
 <t id="M_VIEW" ver="9">View</t>
 <t id="M_SHOW_EDGES" ver="9">Show Edges</t>
 <t id="M_SHOW_FACES" ver="9">Show Faces</t>
@@ -596,29 +596,29 @@ Reload objects?]]></t>
 <t id="L_ANALYSER_FINISHED" ver="9">Analysing finished.</t>
 <t id="L_LOADING_3D_FAILED" ver="9">Loading of 3d file $1 failed.</t>
 <t id="L_OBJECT_INFORMATIONS" ver="9">Object Informations</t>
-<t id="L_MINIMUM:" ver="9">Minimum:</t>
-<t id="L_MAXIMUM:" ver="9">Maximum:</t>
-<t id="L_SIZE:" ver="9">Size:</t>
-<t id="L_VOLUME:" ver="9">Volume:</t>
-<t id="L_SURFACE:" ver="9">Surface:</t>
-<t id="L_DIMENSIONS:" ver="9">Dimensions:</t>
+<t id="L_MINIMUM:" ver="9">Minimi:</t>
+<t id="L_MAXIMUM:" ver="9">Maksimi:</t>
+<t id="L_SIZE:" ver="9">Koko:</t>
+<t id="L_VOLUME:" ver="9">Tilavuus:</t>
+<t id="L_SURFACE:" ver="9">Pinta:</t>
+<t id="L_DIMENSIONS:" ver="9">Mitat:</t>
 <t id="L_SPLIT_OBJECT" ver="9">Split Object</t>
-<t id="L_FIX_NORMALS" ver="9">Fix Normals</t>
-<t id="M_FIT_PRINTER" ver="9">Fit Printer</t>
-<t id="M_FIT_OBJECTS" ver="9">Fit Objects</t>
-<t id="IMPORTING_1" ver="9">Importing $1</t>
-<t id="L_LOADING..." ver="9">Loading ...</t>
+<t id="L_FIX_NORMALS" ver="9">Korjaa normaalit</t>
+<t id="M_FIT_PRINTER" ver="9">Sovita kirjoitin</t>
+<t id="M_FIT_OBJECTS" ver="9">Sovita kappaleet</t>
+<t id="IMPORTING_1" ver="9">Tuodaan $1</t>
+<t id="L_LOADING..." ver="9">Ladataan ...</t>
 <t id="L_INTERSECTION_TESTS" ver="9">Intersection tests</t>
-<t id="L_FIXING_NORMALS" ver="9">Fixing normals</t>
+<t id="L_FIXING_NORMALS" ver="9">Korjataan normaaleja</t>
 <t id="L_ANA_FIXED_COLLINEAR_TRIANGLES" ver="9">Fixed collinear triangles:</t>
 <t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Corrected normal orientations:</t>
 <t id="L_OBJECT_IS_MANIFOLD" ver="9">Object is manifold.</t>
 <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Object is non-manifold. Slicing may produce wrong results. Please repair object file first.</t>
-<t id="L_SHOW_COMPASS" ver="9">Show Compass</t>
+<t id="L_SHOW_COMPASS" ver="9">Näytä kompassi</t>
 <t id="L_CONFIRM_DELETE_JOB" ver="10">Are you sure you want to delete job $1?</t>
-<t id="L_PRINT_STATE_SAVED_SUCCESSFULLY" ver="10">State was saved successfully</t>
+<t id="L_PRINT_STATE_SAVED_SUCCESSFULLY" ver="10">STilan tallennus onnistui</t>
 <t id="M_POSPONED_JOBS" ver="10">Postponed Jobs</t>
-<t id="M_RESUME_JOB" ver="10">Resume</t>
+<t id="M_RESUME_JOB" ver="10">Jatka</t>
 <t id="M_POSTPONE_JOB" ver="10">Postpone Current Job</t>
 <t id="W_POSTPONED_PRINT_JOBS" ver="10">Postponed Print Jobs</t>
 <t id="M_POSTPONED_JOB_SELECT_JOB" ver="10">Resume Job</t>
@@ -634,8 +634,8 @@ Reload objects?]]></t>
 <t id="L_PRINTER_ID" ver="10">Printer ID</t>
 <t id="L_BGCOLOR:" ver="10">Background Color:</t>
 <t id="L_EDIT_INSTANCE_NAME" ver="10">Edit Printer ID</t>
-<t id="L_ANAYLSING" ver="10">Analysing</t>
-<t id="L_NOT_TESTED" ver="10">Not tested</t>
+<t id="L_ANAYLSING" ver="10">Analysoidaan</t>
+<t id="L_NOT_TESTED" ver="10">Testaamaton</t>
 <t id="L_CONNECTOR:" ver="10">Connector:</t>
 <t id="L_NORMAL_CORRECTION_IMPOSSIBLE" ver="10">Normal correction not possible for non-manifold meshes.</t>
 <t id="M_MED_HEIGHT_MAP" var="10">Bed height map</t>
@@ -662,23 +662,23 @@ Reload objects?]]></t>
 <t id="B_RESET" ver="10">Reset</t>
 <t id="L_SLIC3R_INFO2" ver="10">Slic3r is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://www.slic3r.org</t>
 <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://fabmetheus.crsndoo.com/</t>
-<t id="L_PRINT_SETTINGS:" ver="10">Print Setting:</t>
-<t id="L_PRINTER_SETTINGS:" ver="10">Printer Settings:</t>
-<t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Override Slic3r Settings</t>
-<t id="B_COPY_PRINT_SETTINGS_TO_OVERRIDE" ver="10">Copy Print Settings to Override</t>
-<t id="L_ENABLE_SUPPORT" ver="10">Enable Support</t>
-<t id="L_ENABLE_COOLING" ver="10">Enable Cooling</t>
-<t id="L_LAYER_HEIGHT:" ver="10">Layer Height:</t>
-<t id="L_INFILL_DENSITY" ver="10">Infill Density</t>
-<t id="L_INFILL_ANGLE" ver="10">Infill Angle</t>
-<t id="L_INFILL_PATTERN:" ver="10">Infill Pattern:</t>
-<t id="L_SOLID_INFILL_PATTERN:" ver="10">Solid Infill Pattern:</t>
-<t id="L_SHOW_EXTRUDER" ver="10">Show Extruder</t>
-<t id="L_SHOW_BED" ver="10">Show Bed</t>
+<t id="L_PRINT_SETTINGS:" ver="10">Tulostuksen asetukset:</t>
+<t id="L_PRINTER_SETTINGS:" ver="10">Tulostimen asetukset:</t>
+<t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Ohita Slic3rin asetukset</t>
+<t id="B_COPY_PRINT_SETTINGS_TO_OVERRIDE" ver="10">Kopioi tulostuksen asetukset ohitukseen</t>
+<t id="L_ENABLE_SUPPORT" ver="10">Käytä tukea</t>
+<t id="L_ENABLE_COOLING" ver="10">Käytä jäähdytystä</t>
+<t id="L_LAYER_HEIGHT:" ver="10">Kerroksen korkeus:</t>
+<t id="L_INFILL_DENSITY" ver="10">Täytön tiheys</t>
+<t id="L_INFILL_ANGLE" ver="10">Täytön kulma</t>
+<t id="L_INFILL_PATTERN:" ver="10">Täytön kuvio:</t>
+<t id="L_SOLID_INFILL_PATTERN:" ver="10">Umpinaisen täytön kuvio:</t>
+<t id="L_SHOW_EXTRUDER" ver="10">Näytä suutin</t>
+<t id="L_SHOW_BED" ver="10">Näytä tulostusalusta</t>
 <t id="L_SHOW_OUTPUT" ver="10">Show Output</t>
-<t id="L_SHOW_TARGET_TEMPERATURES" ver="10">Target Temperatures</t>
-<t id="L_SHOW_AVERAGE_TEMPERATURES" ver="10">Average Temperatures</t>
-  <t id="L_NOT_VALID_SD_FILENAME" ver="10">Filename contains illegal chars or is too long. Don't use more then 26 chars.</t>
+<t id="L_SHOW_TARGET_TEMPERATURES" ver="10">Tavoitelämpötilat</t>
+<t id="L_SHOW_AVERAGE_TEMPERATURES" ver="10">Keskiarvoiset lämpötilat</t>
+  <t id="L_NOT_VALID_SD_FILENAME" ver="10">Tiedoston nimi sisältää kiellettyjä merkkejä tai on liian pitkä. Älä käytä yli 26 merkkiä.</t>
   <t id="B_ADD_SLICER" ver="10">Add Slicer</t>
   <t id="B_DELETE" ver="10">Delete</t>
   <t id="L_SLICER" ver="10">Slicer</t>
@@ -688,7 +688,7 @@ Reload objects?]]></t>
   <t id="L_NAME" ver="10">Name</t>
   <t id="L_SLICER_MANAGER" ver="10">Slicer Manager</t>
   <t id="L_ASK_LOAD_GCODE" ver="10">The slicer created a new g-code file. Shall I load it?</t>
-  <t id="L_QUESTION" ver="10">Question</t>
+  <t id="L_QUESTION" ver="10">Kysymys</t>
   <t id="L_FILE_TYPES:" ver="10">File Types:</t>
   <t id="L_WATCHDIRECTORY_INFO" ver="10">The watch directory shows the file types defined above. Separate multiple types with a semicolon like &quot;g;gcode&quot;. Every printer has it's own directory setting, which gets watched. If a file is new or changed, when you switch to Repetier-Host it will show the files and highlight them for fast import.</t>
   <t id="B_LOAD" ver="10">Load</t>
