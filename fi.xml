@@ -26,12 +26,12 @@
 <t id="M_BUILD_AVERAGE_OVER" ver="1">Build Average over ...</t>
 <t id="M_30_SECONDS" ver="1">30 sekuntia</t>
 <t id="M_1_MINUTE" ver="1">1 minuutti</t>
-<t id="M_2_Minuuttia" ver="1">2 minuuttia</t>
-<t id="M_5_Minuuttia" ver="1">5 minuuttia</t>
-<t id="M_10_Minuuttia" ver="1">10 minuuttia</t>
-<t id="M_15_Minuuttia" ver="1">15 minuuttia</t>
-<t id="M_30_Minuuttia" ver="1">30 minuuttia</t>
-<t id="M_60_Minuuttia" ver="1">60 minuuttia</t>
+<t id="M_2_MINUTE" ver="1">2 minuuttia</t>
+<t id="M_5_MINUTE" ver="1">5 minuuttia</t>
+<t id="M_10_MINUTE" ver="1">10 minuuttia</t>
+<t id="M_15_MINUTE" ver="1">15 minuuttia</t>
+<t id="M_30_MINUTE" ver="1">30 minuuttia</t>
+<t id="M_60_MINUTE" ver="1">60 minuuttia</t>
 <t id="M_CONTINUOUS_MONITORING" ver="1">Jatkuva valvonta</t>
 <t id="M_DISABLE" ver="1">Poista käytöstä</t>
 <t id="M_EXTRUDER_1" ver="1">Suutin 1</t>
@@ -117,9 +117,9 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_SEND" ver="1">Lähetä</t>
 <t id="B_SIMULATE_OK" ver="1">OK</t>
 <t id="B_STOP_MOTOR" ver="1">Sammuta moottorit</t>
-<t id="B_PARK" ver="1">Park</t>
-<t id="B_RETRACT" ver="1">Retract</t>
-<t id="B_EXTRUDE" ver="1">Extrude</t>
+<t id="B_PARK" ver="1">Pysäköinti</t>
+<t id="B_RETRACT" ver="1">Takaisinveto</t>
+<t id="B_EXTRUDE" ver="1">Pursota</t>
 <t id="L_OUTPUT_PERCENT" ver="1">Ulostulo $1%</t>
 <t id="B_POWER" ver="1">Virta</t>
 <t id="B_HEAT_EXTRUDER" ver="1">Lämmitä suutin</t>
@@ -129,16 +129,16 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_DEBUG_ECHO" ver="1">Kaiku</t>
 <t id="B_DRY_RUN" ver="1">Testiajo</t>
 <t id="B_DEBUG_INFO" ver="1">Info</t>
-<t id="L_EXTRUDER" ver="1">Extruder</t>
+<t id="L_EXTRUDER" ver="1">Pursotin</t>
 <t id="L_PRINTBED" ver="1">Tulostusalusta</t>
 <t id="L_SPEED_MULTIPLY" ver="1">Nopeuskerroin</t>
-<t id="L_EXTRUDE_MM" ver="1">Extrude [mm]</t>
+<t id="L_EXTRUDE_MM" ver="1">Pursotus [mm]</t>
 <t id="L_EXTRUDER_SPEED_MM_MIN" ver="1">Nopeus [mm/min]</t>
-<t id="L_RETRACT_MM" ver="1">Retract [mm]</t>
+<t id="L_RETRACT_MM" ver="1">Takaisinveto [mm]</t>
 <t id="L_TEMP" ver="1">Lämpötila </t>
 <t id="L_CONNECTED" ver="1">Yhdistetty</t>
 <t id="L_HEATING_BED" ver="1">Lämmittää tulostusalustaa</t>
-<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää extruderia</t>
+<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää pursotinta</t>
 <t id="L_PRINT_JOB_KILLED" ver="1">Tulostustyö lopetettu</t>
 <t id="L_PRINT_JOB_PAUSED" ver="1">Tulostustyö tauotettu</t>
 <t id="L_PRINT_JOB_FINISHED" ver="1">Tulostustyö valmis</t>
@@ -176,8 +176,8 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_UNDO" ver="1">Kumoa</t>
 <t id="L_REDO" ver="1">Tee uudelleen</t>
 <t id="L_AUTO_UPDATE_PREVIEW" ver="1">Päivitä esikatselu automaattisesti</t>
-<t id="L_START_CODE" ver="1">Start Code</t>
-<t id="L_END_CODE" ver="1">End Code</t>
+<t id="L_START_CODE" ver="1">Aloita koodi</t>
+<t id="L_END_CODE" ver="1">Lopeta koodi</t>
 <t id="L_RUN_ON_KILL" ver="1">Suorita lopetettaessa</t>
 <t id="L_RUN_ON_PAUSE" ver="1">Suorita tauotettaessa</t>
 <t id="L_SCRIPT_X" ver="1">Skripti $1</t>
@@ -197,23 +197,22 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_LAST_LAYER" ver="1">Viimeinen taso:</t>
 <t id="L_REALLY_DELETE_PRINTER" ver="1">Haluatko varmasti tuhota kaikki asetukset kirjoittimelta $1?</t>
 <t id="L_SECURITY_QUESTION" ver="1">Turvakysymys</t>
-<t id="L_ADD_PRINTING_TIME" ver="1">Add to comp. Printing Time</t>
+<t id="L_ADD_PRINTING_TIME" ver="1">Add to comp. Tulostusaika</t>
 <t id="L_BAUD_RATE" ver="1">Baudinopeus:</t>
-<t id="L_CACHE_SIZE_HINT" ver="1">From Arduino 1 on the receiving cache was reduced from 127 to 63 bytes!</t>
+<t id="L_CACHE_SIZE_HINT" ver="1">Arduino 1:stä vastaanotettujen välimuisti pieneni 127:stä 63:een tavuun!</t>
 <t id="L_CHECK_EVERY_X" ver="1">Tarkista joka $1 sekuntti.</t>
-<t id="L_CONNECTION_INFO" ver="1">The printer settings always correspond to the selected printer at the top. They
-are stored with every OK or apply. To create a new printer, just enter a new
-printer name and press apply. The new printer starts with the last settings
-selected.</t>
+<t id="L_CONNECTION_INFO" ver="1">Tulostinasetukset määrittelevät valittua tulostinta. Asetukset tallennetaan joko
+OK tai käytä -napilla. Luodaksesi uuden tulostin, aseta tulostimen nimi ja paina käytä. Uusi tulostin käyttää
+viimeisiä valittuja asetuksia.</t>
 <t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Oletus suuttimen lämpötila:</t>
 <t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Oletus tulostusalustan lämpötila:</t>
 <t id="L_DUMP_AREA_DEPTH" ver="1">Dump Area Depth:</t>
 <t id="L_DUMP_AREA_FRONT" ver="1">Dump Area Front:</t>
 <t id="L_DUMP_AREA_LEFT" ver="1">Dump Area Left:</t>
 <t id="L_DUMP_AREA_WIDTH" ver="1">Dump Area Width:</t>
-<t id="L_FILTER_INFO" ver="1">You can run a filter program after each slicing action. The filter will be run on the G-Code
-produced by the slicer. Use #in and #out to insert the input and output filenames as parameter.</t>
-<t id="L_FILTER_PATH_PARAM" ver="1">Filter Path and Parameter:</t>
+<t id="L_FILTER_INFO" ver="1">Suodatinta voi käyttää jokaisen viipaloinnin jälkeen. Suodatinta käytetään 
+viipaloijan tuottamaan G-koodiin. Tuotavien ja vietävien tiedostojen tiedostonimiä käytetään parametreina #in ja #out -termeille.</t>
+<t id="L_FILTER_PATH_PARAM" ver="1">Suodattimen polku ja parametri:</t>
 <t id="L_PARITY" ver="1">Parity:</t>
 <t id="L_PARK_POSITION" ver="1">Park Position:</t>
 <t id="L_PORT" ver="1">Port:</t>
