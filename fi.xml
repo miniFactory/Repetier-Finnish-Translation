@@ -206,54 +206,54 @@ OK tai käytä -napilla. Luodaksesi uuden tulostin, aseta tulostimen nimi ja pai
 viimeisiä valittuja asetuksia.</t>
 <t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Oletus suuttimen lämpötila:</t>
 <t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Oletus tulostusalustan lämpötila:</t>
-<t id="L_DUMP_AREA_DEPTH" ver="1">Dump Area Depth:</t>
-<t id="L_DUMP_AREA_FRONT" ver="1">Dump Area Front:</t>
-<t id="L_DUMP_AREA_LEFT" ver="1">Dump Area Left:</t>
-<t id="L_DUMP_AREA_WIDTH" ver="1">Dump Area Width:</t>
+<t id="L_DUMP_AREA_DEPTH" ver="1">Tyhjennysalueen syvyys:</t>
+<t id="L_DUMP_AREA_FRONT" ver="1">Tyhjennysalueen etureuna:</t>
+<t id="L_DUMP_AREA_LEFT" ver="1">Tyhjennysalueen vasen reunat:</t>
+<t id="L_DUMP_AREA_WIDTH" ver="1">Tyhjennysalueen leveys:</t>
 <t id="L_FILTER_INFO" ver="1">Suodatinta voi käyttää jokaisen viipaloinnin jälkeen. Suodatinta käytetään 
 viipaloijan tuottamaan G-koodiin. Tuotavien ja vietävien tiedostojen tiedostonimiä käytetään parametreina #in ja #out -termeille.</t>
 <t id="L_FILTER_PATH_PARAM" ver="1">Suodattimen polku ja parametri:</t>
-<t id="L_PARITY" ver="1">Parity:</t>
-<t id="L_PARK_POSITION" ver="1">Park Position:</t>
-<t id="L_PORT" ver="1">Port:</t>
+<t id="L_PARITY" ver="1">Pariteetti:</t>
+<t id="L_PARK_POSITION" ver="1">Pysäköintialue:</t>
+<t id="L_PORT" ver="1">Portti:</t>
 <t id="L_PRINT_AREA_DEPTH" ver="1">Tulostusalueen syvyys:</t>
 <t id="L_PRINT_AREA_HEIGHT" ver="1">Tulostusalueen korkeus:</t>
 <t id="L_PRINT_AREA_WIDTH" ver="1">Tulostusalueen leveys:</t>
 <t id="L_PRINTER" ver="1">Tulostin:</t>
-<t id="L_RECEIVE_CACHE_SIZE" ver="1">Receive Cache Size:</t>
-<t id="L_STOPBITS" ver="1">Stop Bits:</t>
+<t id="L_RECEIVE_CACHE_SIZE" ver="1">Vastaanottovälimuistin koko:</t>
+<t id="L_STOPBITS" ver="1">Stop Bitit:</t>
 <t id="L_TRANSFER_PROTOCOL" ver="1">Tiedonsiirtoprotokolla:</t>
 <t id="L_TRAVEL_FEED_RATE" ver="1">Siirtymän nopeus:</t>
 <t id="L_ZFEED_RATE" ver="1">Z-Akselin syöttönopeus:</t>
-<t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Disable Extruder after Job/Kill</t>
-<t id="L_DISABLE_MOTORS" ver="1">Disable Motors after Job/Kill</t>
-<t id="L_DISABLE_HEATED_BED_AFTER_JOB" ver="1">Disable Heated Bed after Job/Kill</t>
-<t id="L_GO_PARK_POSITION" ver="1">Go to Park Position after Job/Kill</t>
-<t id="L_HAS_DUMP_AREA" ver="1">Has Dump Area</t>
-<t id="L_HOME_X_MAX" ver="1">Home is at X Max</t>
-<t id="L_HOME_Y_MAX" ver="1">Home is at Y Max</t>
-<t id="L_HOME_Z_MAX" ver="1">Home is at Z Max</t>
-<t id="L_PING_PONG_MODE" ver="1">Use Ping-Pong Communication (Send only after ok)</t>
-<t id="L_RUN_FILTER_EVERY_SLICE" ver="1">Run Filter after every Slice</t>
-<t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Check Extruder &amp;&amp; Bed Temperature</t>
-<t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Remove temperature requests from Log</t>
+<t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Sammuta suutin työn keskeytyksen jälkeen</t>
+<t id="L_DISABLE_MOTORS" ver="1">Sammuta moottorit työn keskeytyksen jälkeen</t>
+<t id="L_DISABLE_HEATED_BED_AFTER_JOB" ver="1">Sammuta lämmitetty tulostusalusta työn keskeytyksen jälkeen</t>
+<t id="L_GO_PARK_POSITION" ver="1">Pysäköi työn keskeytyksen jälkeen</t>
+<t id="L_HAS_DUMP_AREA" ver="1">Tyhjennysalue löytyy</t>
+<t id="L_HOME_X_MAX" ver="1">Koti on X maksimi</t>
+<t id="L_HOME_Y_MAX" ver="1">Koti on Y maksimi</t>
+<t id="L_HOME_Z_MAX" ver="1">Koti on Z maksimi</t>
+<t id="L_PING_PONG_MODE" ver="1">Käytä Ping-Pong kommunikaatiota (lähetä vain ok:n jälkeen)</t>
+<t id="L_RUN_FILTER_EVERY_SLICE" ver="1">Aja suodin jokaisen viipaleen jälkeen</t>
+<t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Tarkista suuttimen &amp;&amp; tulostusalustan lämpötila</t>
+<t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Poista lämpötilapyynnöt logista</t>
 <t id="B_CANCEL" ver="1">Peru</t>
 <t id="B_APPLY" ver="1">Hyväksy</t>
 <t id="B_OK" ver="1">OK</t>
 <t id="B_DELETE_PRINTER_SETTINGS" ver="1">Poista tämä kirjoitinasetus</t>
 <t id="TAB_CONNECTION" ver="1">Yhteys</t>
 <t id="TAB_PRINTER" ver="1">Tulostin</t>
-<t id="TAB_PRINTER_SHAPE" ver="1">Printer Shape</t>
-<t id="TAB_ADVANCED" ver="1">Advanced</t>
+<t id="TAB_PRINTER_SHAPE" ver="1">Tulostimen muoto</t>
+<t id="TAB_ADVANCED" ver="1">Kehittyneet</t>
 <t id="W_PRINTER_SETTINGS" ver="1">Tulostusasetukset</t>
-<t id="L_POST_SLICE_FILTER" ver="1">Post Slice Filter</t>
+<t id="L_POST_SLICE_FILTER" ver="1">Viipaloinnin jälkeinen suodin</t>
 <t id="L_Z_MIN" ver="1">Z-Min</t>
-<t id="W_PRINT_PAUSED" ver="1">Print Paused</t>
-<t id="L_PAUSE_HINT" ver="1">Hint: You are allowed to move the extruder around and to extrude filament in order to change the filament or refill the nozzle if oozing occured. The host will restore the position at the start of the pause for you.</t>
+<t id="W_PRINT_PAUSED" ver="1">Tulostus tauolla</t>
+<t id="L_PAUSE_HINT" ver="1">Vihje: Voit liikuttaa suutinta pursottaa materiaalia vaihtaaksesi materiaalin tai täyttääksesi suuttimen jos suutin valuu. Ohjelma palauttaa sijainnin tulostusta jatkettaessa.</t>
 <t id="B_CONTINUE_PRINTING" ver="1">Jatka tulostusta</t>
-<t id="W_REPETIER_HOST_UPDATE_CHECK" ver="1">Repetier-Host Update Check</t>
-<t id="B_DOWNLOAD" ver="1">Download</t>
-<t id="B_REMIND_ME_LATER" ver="1">Remind me Later</t>
+<t id="W_REPETIER_HOST_UPDATE_CHECK" ver="1">Repetier-Host päivitysten tarkistus</t>
+<t id="B_DOWNLOAD" ver="1">Lataa</t>
+<t id="B_REMIND_ME_LATER" ver="1">Muistuta myöhemmin</t>
 <t id="B_SKIP_VERSION" ver="1">Ohita tämä versio</t>
 <t id="L_AVAILABLE_VERSION" ver="1">Versio käytettävissä:</t>
 <t id="L_INSTALLED_VERSION" ver="1">Versio asennettu:</t>
@@ -261,13 +261,13 @@ viipaloijan tuottamaan G-koodiin. Tuotavien ja vietävien tiedostojen tiedostoni
 <t id="L_NO_NEW_UPDATES" ver="1">Ei uusia päivityksiä saatavilla.
 Käytössäsi on viimeisin versio.</t>
 <t id="L_UPDATE_STATUS" ver="1">Päivitä tila</t>
-<t id="W_SLICING_INFO" ver="1">Slicing Info</t>
+<t id="W_SLICING_INFO" ver="1">Viipalointi info</t>
 <t id="L_ACTION:" ver="1">Toiminto:</t>
-<t id="L_DURATION:" ver="1">Kelsto:</t>
-<t id="L_SLICER:" ver="1">Slicer:</t>
-<t id="L_START_JOB_AFTER_SLICING" ver="1">Start Job after Slicing</t>
+<t id="L_DURATION:" ver="1">Kesto:</t>
+<t id="L_SLICER:" ver="1">Viipaloja:</t>
+<t id="L_START_JOB_AFTER_SLICING" ver="1">Aloita työ viipaloinnin jälkeen</t>
 <t id="W_ABOUT_REPETIER_HOST" ver="1">Tietoja Repetier-Hostista</t>
-<t id="L_LICENCE_AND_LIBRARIES" ver="1">Licence and Libraries</t>
+<t id="L_LICENCE_AND_LIBRARIES" ver="1">Lisenssi ja kirjastot</t>
 <t id="L_REPETIER_INFO" ver="1">This software was developed for controlling RepRap like 3D-printer. It is best used with Repetier-Firmware, which supports all features. Other printer firmware like Marlin, Teacup, Sprinter or 5D GCode interpreter should work with proper settings.</t>
 <t id="W_COPY_MARKED_OBJECTS" ver="1">Kopioi merkityt kappaleet</t>
 <t id="L_NUMBER_OF_COPIES:" ver="1">Kopioiden määrä:</t>
