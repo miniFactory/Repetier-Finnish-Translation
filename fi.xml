@@ -684,39 +684,39 @@ Reload objects?]]></t>
   <t id="L_CONFIGURATION:" ver="10">Configuration:</t>
   <t id="L_SETUP" ver="10">Setup</t>
   <t id="L_SLICER_CONFIGURATIONS" ver="10">Slicer Configurations</t>
-  <t id="L_NAME" ver="10">Name</t>
-  <t id="L_SLICER_MANAGER" ver="10">Slicer Manager</t>
-  <t id="L_ASK_LOAD_GCODE" ver="10">The slicer created a new g-code file. Shall I load it?</t>
+  <t id="L_NAME" ver="10">Nimi</t>
+  <t id="L_SLICER_MANAGER" ver="10">Slicer hallinta</t>
+  <t id="L_ASK_LOAD_GCODE" ver="10">Slicer on luonut uuden g-kooditiedoston. Ladataanko tiedosto?</t>
   <t id="L_QUESTION" ver="10">Kysymys</t>
-  <t id="L_FILE_TYPES:" ver="10">File Types:</t>
+  <t id="L_FILE_TYPES:" ver="10">Tiedostotyypit:</t>
   <t id="L_WATCHDIRECTORY_INFO" ver="10">The watch directory shows the file types defined above. Separate multiple types with a semicolon like &quot;g;gcode&quot;. Every printer has it's own directory setting, which gets watched. If a file is new or changed, when you switch to Repetier-Host it will show the files and highlight them for fast import.</t>
-  <t id="B_LOAD" ver="10">Load</t>
-  <t id="L_CHANGED" ver="10">Changed</t>
-  <t id="L_NEW" ver="10">New</t>
-  <t id="L_DIRECTORY:" ver="10">Directory:</t>
-  <t id="L_ACTION" ver="10">Action</t>
-  <t id="L_FILE" ver="10">File</t>
-  <t id="L_STATUS" ver="10">Status</t>
-  <t id="L_SEND_ETA_DISPLAY" ver="10">Send ETA to printer display</t>
+  <t id="B_LOAD" ver="10">Lataa</t>
+  <t id="L_CHANGED" ver="10">Muutettu</t>
+  <t id="L_NEW" ver="10">Uusi</t>
+  <t id="L_DIRECTORY:" ver="10">Kansio:</t>
+  <t id="L_ACTION" ver="10">Toiminta</t>
+  <t id="L_FILE" ver="10">Tiedosto</t>
+  <t id="L_STATUS" ver="10">Tila</t>
+  <t id="L_SEND_ETA_DISPLAY" ver="10">Lähetä ETA-tieto tulostimen näytölle</t>
   <t id="L_ETA_SHORT$1" ver="10">ETA $1</t>
   <t id="L_ETE_SHORT$1" ver="10">ETE $1</t>
-  <t id="L_CACHING..." ver="10">Caching ... $1%</t>
-  <t id="M_MAKE_SCREENSHOT" ver="10">Save Screenshot</t>
-  <t id="PNG_FILTER" ver="10">PNG-Images|*.png</t>
-  <t id="L_INVALID_FILENAME" ver="10">Invalid filename.</t>
-  <t id="L_EEPROM_IMPORT_FAILED" ver="10">Import of eeprom data failed. Invalid file format.</t>
-  <t id="L_EXPORT_EEPROM_DATA" ver="10">Export EEPROM Data</t>
-  <t id="L_IMPORT_EEPROM_DATA" ver="10">Import EEPROM Data</t>
+  <t id="L_CACHING..." ver="10">Välimuistiin ... $1%</t>
+  <t id="M_MAKE_SCREENSHOT" ver="10">Tallenna kuvakaappaus</t>
+  <t id="PNG_FILTER" ver="10">PNG-kuvat|*.png</t>
+  <t id="L_INVALID_FILENAME" ver="10">Virheellinen tiedostonimi.</t>
+  <t id="L_EEPROM_IMPORT_FAILED" ver="10">EEPROM datan tuonti epäonnistui. Virheellinen tiedostomuoto.</t>
+  <t id="L_EXPORT_EEPROM_DATA" ver="10">Vie EEPROM Data</t>
+  <t id="L_IMPORT_EEPROM_DATA" ver="10">Tuo EEPROM Data</t>
 <t id="L_TIME_H" ver="10">$1h </t>
 <t id="L_TIME_M" ver="10">$1m </t>
-<t id="L_SHOW_OUTPUT_EXTRUDER" ver="10">Output Extruder</t>
-<t id="L_SHOW_OUTPUT_BED" ver="10">Output Bed</t>
-<t id="M_SHOW_BED_POWER" ver="10">Show Bed Power</t>
-  <t id="L_ENABLE_ANTI_ALIAS" ver="10">Enable anti-aliasing if possible (slows down visualization, restart required)</t>
-  <t id="L_MODEL_ERRORS_EDGE:" ver="10">Model errors (egde):</t>
-  <t id="L_CUT_FACES:" ver="10">Cut faces:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">The object is not manifold. This essentially means, that it is not watertight. This normally causes problems during slicing, resulting in unwanted results. We strongly advice to repair the file. One free repair service is: https://netfabb.azurewebsites.net </t>
-  <t id="L_EXPERT_MODE" ver="11">Expert Mode</t>
+<t id="L_SHOW_OUTPUT_EXTRUDER" ver="10">Extruuderin teho</t>
+<t id="L_SHOW_OUTPUT_BED" ver="10">Tulostusalustan teho</t>
+<t id="M_SHOW_BED_POWER" ver="10">Näytä tulostusalustan teho</t>
+  <t id="L_ENABLE_ANTI_ALIAS" ver="10">Ota käyttöön anti-aliasing mikäli mahdollista (hidastaa visualisointia, ohjelman uudelleenkäynnistys vaaditaan)</t>
+  <t id="L_MODEL_ERRORS_EDGE:" ver="10">Mallin virheet (reuna):</t>
+  <t id="L_CUT_FACES:" ver="10">Leikkaa pintoja:</t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">Objekti ei ole yhtenäinen(manifold), eli oletuksena vesitiivis. Tämä yleensä aiheuttaa ongelmia slaissauksessa johtaen ei haluttuihin lopputuloksiin. Suosituksena on yrittää korjata objekti. Vaihtoehdot netfabb studio basic-ohjelmisto tai selainpohjainen palvelu: https://netfabb.azurewebsites.net </t>
+  <t id="L_EXPERT_MODE" ver="11">Laajennetut asetukset</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine Executable</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine is separate, external program developed by David Braam. For more informations visit https://www.ultimaker.com</t>
 <t id="L_CURAENGINE_NOT_FOUND" ver="11">CuraEngine not found.</t>
