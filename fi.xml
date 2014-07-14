@@ -2,7 +2,7 @@
 <translation revision="10" language="Finnish" languageInEnglish="Finnish" author="Repetier">
 <t id="M_FILE" ver="1">Tiedosto</t>
 <t id="M_CONFIG" ver="1">Asetukset</t>
-<t id="M_SLICER" ver="1">Slicer</t>
+<t id="M_SLICER" ver="1">Viipaloija</t>
 <t id="M_TEMPERATURE" ver="1">Lämpötila</t>
 <t id="M_PRINTER" ver="1">Tulostin</t>
 <t id="M_HELP" ver="1">Ohje</t>
@@ -18,7 +18,7 @@
 <t id="M_SHOW_EXTRUDER_TEMPERATURES" ver="1">Näytä suuttimen lämpötilat</t>
 <t id="M_SHOW_HEATED_BED_TEMPERATURES" ver="1">Näytä tulostusalustan lämpötilat</t>
 <t id="M_SHOW_TARGET_TEMPERATURES" ver="1">Näytä tavoitelämpötilat</t>
-<t id="M_SHOW_AVERAGE_TEMPERATURES" ver="1">Näytä lämpötilojen leskiarvot</t>
+<t id="M_SHOW_AVERAGE_TEMPERATURES" ver="1">Näytä lämpötilojen keskiarvot</t>
 <t id="M_SHOW_HEATER_POWER" ver="1">Näytä lämmitysteho</t>
 <t id="M_AUTOSCROLL_TEMPERATURE_VIEW" ver="1">Vieritä lämpötilanäkymää automaattisesti</t>
 <t id="M_TIMEPERIOD" ver="1">Aikajakso</t>
@@ -104,7 +104,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_COPY_OBJECTS" ver="1">Kopioi kappale(et)</t>
 <t id="B_CENTER_OBJECT" ver="1">Keskitä kappale</t>
 <t id="L_LOCK_ASPECT_RATIO" ver="1">Lukitse sivusuhde</t>
-<t id="B_KILL_SLICING_PROCESS" ver="1">Lopeta slicing</t>
+<t id="B_KILL_SLICING_PROCESS" ver="1">Lopeta viipalointi</t>
 <t id="B_SETUP_SKEINFORGE" ver="1">Asetukset</t>
 <t id="B_SETUP_SLIC3R" ver="1">Asetukset</t>
 <t id="B_CONFIGURE_SKEINFORGE" ver="1">Konfigurointi</t>
@@ -129,7 +129,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_DEBUG_ECHO" ver="1">Kaiku</t>
 <t id="B_DRY_RUN" ver="1">Testiajo</t>
 <t id="B_DEBUG_INFO" ver="1">Info</t>
-<t id="L_EXTRUDER" ver="1">Pursotin</t>
+<t id="L_EXTRUDER" ver="1">Suutin</t>
 <t id="L_PRINTBED" ver="1">Tulostusalusta</t>
 <t id="L_SPEED_MULTIPLY" ver="1">Nopeuskerroin</t>
 <t id="L_EXTRUDE_MM" ver="1">Pursotus [mm]</t>
@@ -138,7 +138,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_TEMP" ver="1">Lämpötila </t>
 <t id="L_CONNECTED" ver="1">Yhdistetty</t>
 <t id="L_HEATING_BED" ver="1">Lämmittää tulostusalustaa</t>
-<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää pursotinta</t>
+<t id="L_HEATING_EXTRUDER" ver="1">Lämmittää suutinta</t>
 <t id="L_PRINT_JOB_KILLED" ver="1">Tulostustyö lopetettu</t>
 <t id="L_PRINT_JOB_PAUSED" ver="1">Tulostustyö tauotettu</t>
 <t id="L_PRINT_JOB_FINISHED" ver="1">Tulostustyö valmis</t>
@@ -167,7 +167,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="B_LOG_INFO" ver="1">Infot</t>
 <t id="B_LOG_WARNINGS" ver="1">Varoitukset</t>
 <t id="B_COPY" ver="1">Kopioi</t>
-<t id="B_CLEAR_LOG" ver="1">Tyhjää loki</t>
+<t id="B_CLEAR_LOG" ver="1">Tyhjennä loki</t>
 <t id="L_COPY" ver="1">Kopioi</t>
 <t id="L_CUT" ver="1">Leikkaa</t>
 <t id="L_NEW_TEXT" ver="1">Uusi teksti</t>
@@ -202,13 +202,13 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_CACHE_SIZE_HINT" ver="1">Arduino 1:stä vastaanotettujen välimuisti pieneni 127:stä 63:een tavuun!</t>
 <t id="L_CHECK_EVERY_X" ver="1">Tarkista joka $1 sekuntti.</t>
 <t id="L_CONNECTION_INFO" ver="1">Tulostinasetukset määrittelevät valittua tulostinta. Asetukset tallennetaan joko
-OK tai käytä -napilla. Luodaksesi uuden tulostin, aseta tulostimen nimi ja paina käytä. Uusi tulostin käyttää
-viimeisiä valittuja asetuksia.</t>
-<t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Oletus suuttimen lämpötila:</t>
-<t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Oletus tulostusalustan lämpötila:</t>
+OK tai käytä -napilla. Luodaksesi uuden tulostimen, aseta tulostimen nimi ja paina käytä. Uusi tulostin käyttää
+viimeksi valittuja asetuksia.</t>
+<t id="L_DEFAULT_EXTRUDER_TEMPERATURE" ver="1">Suuttimen oletus lämpötila:</t>
+<t id="L_DEFAULT_HEATED_BED_TEMPERATURE" ver="1">Tulostusalustan oletus lämpötila:</t>
 <t id="L_DUMP_AREA_DEPTH" ver="1">Tyhjennysalueen syvyys:</t>
 <t id="L_DUMP_AREA_FRONT" ver="1">Tyhjennysalueen etureuna:</t>
-<t id="L_DUMP_AREA_LEFT" ver="1">Tyhjennysalueen vasen reunat:</t>
+<t id="L_DUMP_AREA_LEFT" ver="1">Tyhjennysalueen vasen reuna:</t>
 <t id="L_DUMP_AREA_WIDTH" ver="1">Tyhjennysalueen leveys:</t>
 <t id="L_FILTER_INFO" ver="1">Suodatinta voi käyttää jokaisen viipaloinnin jälkeen. Suodatinta käytetään 
 viipaloijan tuottamaan G-koodiin. Tuotavien ja vietävien tiedostojen tiedostonimiä käytetään parametreina #in ja #out -termeille.</t>
@@ -236,8 +236,8 @@ viipaloijan tuottamaan G-koodiin. Tuotavien ja vietävien tiedostojen tiedostoni
 <t id="L_PING_PONG_MODE" ver="1">Käytä Ping-Pong kommunikaatiota (lähetä vain ok:n jälkeen)</t>
 <t id="L_RUN_FILTER_EVERY_SLICE" ver="1">Aja suodin jokaisen viipaleen jälkeen</t>
 <t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Tarkista suuttimen &amp;&amp; tulostusalustan lämpötila</t>
-<t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Poista lämpötilapyynnöt logista</t>
-<t id="B_CANCEL" ver="1">Peru</t>
+<t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Poista lämpötilapyynnöt lokista</t>
+<t id="B_CANCEL" ver="1">Peruuta</t>
 <t id="B_APPLY" ver="1">Hyväksy</t>
 <t id="B_OK" ver="1">OK</t>
 <t id="B_DELETE_PRINTER_SETTINGS" ver="1">Poista tämä kirjoitinasetus</t>
@@ -268,33 +268,33 @@ Käytössäsi on viimeisin versio.</t>
 <t id="L_START_JOB_AFTER_SLICING" ver="1">Aloita työ viipaloinnin jälkeen</t>
 <t id="W_ABOUT_REPETIER_HOST" ver="1">Tietoja Repetier-Hostista</t>
 <t id="L_LICENCE_AND_LIBRARIES" ver="1">Lisenssi ja kirjastot</t>
-<t id="L_REPETIER_INFO" ver="1">This software was developed for controlling RepRap like 3D-printer. It is best used with Repetier-Firmware, which supports all features. Other printer firmware like Marlin, Teacup, Sprinter or 5D GCode interpreter should work with proper settings.</t>
+<t id="L_REPETIER_INFO" ver="1">Ohjelmisto on kehitetty ohjaamaan RepRapin kaltaisia 3D-tulostimia. Kaikki ominaisuudet on tuettuen Repetitier-firmwarella. Muut firmwaret kuten Marlin, Teacup, Sprinter tai 5D GCode -tulkki toimivat sopivilla asetuksilla.</t>
 <t id="W_COPY_MARKED_OBJECTS" ver="1">Kopioi merkityt kappaleet</t>
 <t id="L_NUMBER_OF_COPIES:" ver="1">Kopioiden määrä:</t>
 <t id="L_AUTO_POSITION_AFTER_COPY" ver="1">Aseta paikat automaattisesti lisäämisen jälkeen</t>
 <t id="L_PRINTING_LAYER_X_OF_Y" ver="1">Tulostetaan kerrosta $1 / $2</t>
-<t id="L_BUILDING_PRINT_JOB..." ver="1">Building print job...</t>
+<t id="L_BUILDING_PRINT_JOB..." ver="1">Luodaan tulostustyötä...</t>
 <t id="L_PRINTING..." ver="1">Tulostetaan...</t>
-<t id="L_JOB_KILLED" ver="1">Job Killed</t>
-<t id="L_PRINTJOB_FINISHED_AT" ver="1">Printjob finished at $1</t>
+<t id="L_JOB_KILLED" ver="1">Työ lopetettu</t>
+<t id="L_PRINTJOB_FINISHED_AT" ver="1">Tulostus valmistui $1</t>
 <t id="L_PRINTING_TIME:" ver="1">Tulostusaika:$1</t>
 <t id="L_LINES_SEND:X" ver="1">Lähetettyjä rivejä:$1</t>
 <t id="L_FINISHED_IN" ver="1">Valmistui $1</t>
 <t id="L_TIME_H:" ver="1">$1h:</t>
 <t id="L_TIME_M:" ver="1">$1m:</t>
 <t id="L_TIME_S" ver="1">$1s</t>
-<t id="W_FIRMWARE_EEPROM_SETTINGS" ver="1">Firmware EEPROM Settings</t>
-<t id="W_GCODE_NOT_FOUND" ver="1">Generated G-Code Not Found</t>
-<t id="L_EXPECTED_FILENAME_AND_LOCATION" ver="1">Expected Filename and Location</t>
-<t id="L_GCODE_NOT_FOUND_INFO" ver="1">I could not find the generated G-code file.
+<t id="W_FIRMWARE_EEPROM_SETTINGS" ver="1">Firmware EEPROM asetukset</t>
+<t id="W_GCODE_NOT_FOUND" ver="1">Luotua G-koodia ei löytynyt</t>
+<t id="L_EXPECTED_FILENAME_AND_LOCATION" ver="1">Oletettu tiedostonimi ja sijainti</t>
+<t id="L_GCODE_NOT_FOUND_INFO" ver="1">Luotua G-koodi tiedostoa ei löytynyt.
 
-Possible reasons:
-- the slicer had an error and didn't finish slicing. Check log output.
-- the slicer stored the file with an unexpected filename.</t>
-<t id="B_CLOSE" ver="1">Close</t>
-<t id="W_REPETIER_SETTINGS" ver="1">Repetier Settings</t>
-<t id="L_BEHAVIOUR" ver="1">Behaviour</t>
-<t id="L_FILES_AND_DIRECTORIES" ver="1">Files and Directories</t>
+Mahdollisia syitä:
+- viipailoinnissa tapahtunut virhe esti viipaloinnin valmistumisen. Tarkista loki.
+- viipaloija tallensi tiedoston virheellisellä nimellä.</t>
+<t id="B_CLOSE" ver="1">Sulje</t>
+<t id="W_REPETIER_SETTINGS" ver="1">Repetierin Asetukset</t>
+<t id="L_BEHAVIOUR" ver="1">Käyttäytyminen</t>
+<t id="L_FILES_AND_DIRECTORIES" ver="1">Tiedostot ja sijainnit</t>
 <t id="L_GUI" ver="1">GUI</t>
 <t id="L_INFO_WORKDIR" ver="1">In the work directory, the logfile and temporary files for slicing are stored. If logging is enabled, 
 there will be a file repetier.log after the program is closed. Starting the program will delete the
