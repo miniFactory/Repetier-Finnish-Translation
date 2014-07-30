@@ -296,237 +296,240 @@ Mahdollisia syitä:
 <t id="L_BEHAVIOUR" ver="1">Käyttäytyminen</t>
 <t id="L_FILES_AND_DIRECTORIES" ver="1">Tiedostot ja sijainnit</t>
 <t id="L_GUI" ver="1">GUI</t>
-<t id="L_INFO_WORKDIR" ver="1">In the work directory, the logfile and temporary files for slicing are stored. If logging is enabled, 
-there will be a file repetier.log after the program is closed. Starting the program will delete the
-old log file! The logfile conatins all communication with the printer, even if disabled in the log
-view. Logging changes are active after next start.</t>
-<t id="L_LOG_SESSION" ver="1">Log Session</t>
-<t id="REDUCE_TOOLBAR_SIZE" ver="1">Reduce Toolbar Size</t>
+<t id="L_INFO_WORKDIR" ver="1">Lokitiedostot ja viipalointiin tarvittavat väliaikaistiedostot on sijoitettu työhakemistoon. 
+Jos lokitiedostojen haltuunotto on kytketty päälle, kansiossa tulee olemaan tiedosto repetier.log ohjelman lopettamisen 
+jälkeen. Ohjelman käynnistäminen poistaa vanhan lokitiedoston! Lokitiedosto sisältää kaiken kommunikoinnin tulostimen kanssa
+vaikka toiminto olisi otettu pois käytöstä lokinäytössä. Lokitietojen asetukset tulevat käyttöön uudelleen käynnistyksen 
+jälkeen.</t>
+<t id="L_LOG_SESSION" ver="1">Lokitapahtuma</t>
+<t id="REDUCE_TOOLBAR_SIZE" ver="1">Pienennä työpalkin kokoa</t>
 <t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Poista laadun heikennys käytöstä</t>
 <t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Existing work directory required!</t>
 <t id="L_WORKDIR:" ver="1">Työhakemisto:</t>
 <t id="B_BROWSE" ver="1">Selaa...</t>
 <t id="L_SELECT_WORKING_DIRECTORY" ver="1">Valitse työhakemisto</t>
 <t id="L_PAST_60_Minuuttia" ver="1">Viimeiset 60 Minuuttia</t>
-<t id="W_3D_VISUALIZATION_SETTINGS" ver="1">3D visualisointi -asetukset</t>
+<t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Vaaditaan olemassa oleva työhakemisto!</t>
 <t id="L_COLORS" ver="1">Värit</t>
 <t id="L_EDITOR" ver="1">Editori</t>
 <t id="L_VISUALIZATION" ver="1">Visualisointi:</t>
-<t id="L_AMBIENT_COLOR" ver="1">Ambient Color:</t>
+<t id="L_AMBIENT_COLOR" ver="1">Pohjaväri:</t>  <!-- Tarkoitetaan meshin pohjaväriä ilman valonlähteen vaikutusta -->
 <t id="L_BACKGROUND" ver="1">Tausta:</t>
-<t id="L_DIFFUSE_COLOR" ver="1">Diffuse Color:</t>
-<t id="L_DRAW_METHOD" ver="1">Draw Method:</t>
-<t id="L_EDGES" ver="1">Edges:</t>
+<t id="L_DIFFUSE_COLOR" ver="1">Valon väri:</t> <!-- Tarkoitetaan ns. valaisun väriä-->
+<t id="L_DRAW_METHOD" ver="1">piirtometodi:</t>
+<t id="L_EDGES" ver="1">Reunat:</t>
 <t id="L_EXTRUDER_X:" ver="1">Suutin $1:</t>
 <t id="L_FACES" ver="1">Faces:</t>
-<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">The shape of the filament is computed either by layer height and width over thickness or from the
-filament diameter, width over thickness and E values in the G-Code. The second version gives
-better results, if the layer height changes, which can happen in newer Skeinforge versions.</t>
-<t id="L_FILAMENT_VISUALIZATION" ver="1">Filament Visualization:</t>
+t id="L_FACES" ver="1">Sivut:</t>
+<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">Säikeen muoto on generoitu, joko tason korkeuden ja leveyden 
+suhteesta paksuuteen tai säikeen läpimitan, leveyden suhteesta paksuuteen ja E-arvoista G-Koodista. Toinen vaihtoehto
+antaa paremman tuloksen jos tason korkeaus vaihtelee, mikä voi tapahtua uudemmistta Skeinforgen versioissa.</t>
+<t id="L_FILAMENT_VISUALIZATION" ver="1">Säikeen visualisointi:</t>
 <t id="L_HOT_FILAMENT" ver="1">Kuuma muovi:</t>
 <t id="L_HOT_FILAMENT_LENGTH" ver="1">Kuuman muovin pituus:</t>
 <t id="L_LIGHT_X" ver="1">Valo $1</t>
 <t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Kappale tulostusalueen ulkopuolella</t>
 <t id="L_PRINTER_BASE" ver="1">Printer Base:</t>
-<t id="L_SELECTED_FACES" ver="1">Selected Faces:</t>
-<t id="L_SELECTED_FILAMENT" ver="1">Selected Filament:</t>
-<t id="L_SPECULAR_COLOR" ver="1">Specular Color:</t>
-<t id="L_WIDTH_OVER_THICKNESS" ver="1">Width over Thickness:</t>
-<t id="L_X_DIRECTION" ver="1">X Direction:</t>
-<t id="L_Y_DIRECTION" ver="1">Y Direction:</t>
-<t id="L_Z_DIRECTION" ver="1">Z Direction:</t>
-<t id="L_DISABLE_FILAMENT_VISUALIZATION" ver="1">Disable Filament Visualization</t>
-<t id="L_ENABLE_LIGHT" ver="1">Enable Light</t>
-<t id="L_SHOW_EDGES" ver="1">Show Edges</t>
-<t id="L_SHOW_FACES" ver="1">Show Faces</t>
-<t id="L_SHOW_PRINTBED" ver="1">Show Print Bed</t>
-<t id="L_PULSE_OBJECT_IF_NOT_PRINTABLE" ver="1">Pulse if Object not Printable</t>
+<t id="L_SELECTED_FACES" ver="1">Valitut sivut:</t>
+<t id="L_SELECTED_FILAMENT" ver="1">Valittu säie:</t>
+<t id="L_SPECULAR_COLOR" ver="1">Korostettu väri:</t>
+<t id="L_WIDTH_OVER_THICKNESS" ver="1">Leveys suhteessa paksuuteen:</t>
+<t id="L_X_DIRECTION" ver="1">X Suuntaan:</t>
+<t id="L_Y_DIRECTION" ver="1">Y Suuntaan:</t>
+<t id="L_Z_DIRECTION" ver="1">Z Suuntaan:</t>
+<t id="L_DISABLE_FILAMENT_VISUALIZATION" ver="1">Poista käytöstä säikeen visualisointi</t>
+<t id="L_ENABLE_LIGHT" ver="1">Käytä valoa</t>
+<t id="L_SHOW_EDGES" ver="1">Näytä Reunat</t>
+<t id="L_SHOW_FACES" ver="1">Näytä Sivut</t>
+<t id="L_SHOW_PRINTBED" ver="1">Näytä Tulostusalusta</t>
+<t id="L_PULSE_OBJECT_IF_NOT_PRINTABLE" ver="1">Syki jos esine ei ole tulostettavissa</t>
 <t id="TAB_GENERAL" ver="1">Yleinen</t>
-<t id="TAB_FILAMENT" ver="1">Filament</t>
+<t id="TAB_FILAMENT" ver="1">Säie</t>
 <t id="TAB_MODEL" ver="1">Malli</t>
 <t id="TAB_LIGHTS" ver="1">Valot</t>
-<t id="L_LAYER_HEIGHT" ver="1">Layer Height:</t>
-<t id="L_FILAMENT_DIAMETER" ver="1">Filament Diameter:</t>
-<t id="L_DRAW_METHOD_AUTODETECT" ver="1">Autodetect Best</t>
-<t id="L_DRAW_METHOD_VBOS" ver="1">VBOs (Fastest)</t>
-<t id="L_DRAW_METHOD_ARRAYS" ver="1">Arrays (Medium)</t>
-<t id="L_DRAW_METHOD_IMMEDIATE" ver="1">Immediate (Slow)</t>
-<t id="W_JOB_STATUS" ver="1">Job Status</t>
+<t id="L_LAYER_HEIGHT" ver="1">Tason korkeus:</t>
+<t id="L_FILAMENT_DIAMETER" ver="1">Säikeen läpimitta:</t>
+<t id="L_DRAW_METHOD_AUTODETECT" ver="1">Selvitä Paras</t>
+<t id="L_DRAW_METHOD_VBOS" ver="1">VBO (Nopein)</t>
+<t id="L_DRAW_METHOD_ARRAYS" ver="1">Taulukointi (Keskiverto)</t>
+<t id="L_DRAW_METHOD_IMMEDIATE" ver="1">Välitön (Hidas)</t>
+<t id="W_JOB_STATUS" ver="1">Työn Tiöa</t>
 <t id="L_ETA:" ver="1">ETA:</t>
-<t id="L_FINISH_TIME:" ver="1">Finish Time:</t>
-<t id="L_LINES_SEND:" ver="1">Lines Send:</t>
-<t id="L_START_TIME:" ver="1">Start Time:</t>
-<t id="L_STATUS:" ver="1">Status:</t>
-<t id="L_TOTAL_LINES:" ver="1">Total Lines:</t>
-<t id="L_NO_JOB_DEFINED" ver="1">No Job Defined</t>
-<t id="L_RUNNING..." ver="1">Running ...</t>
-<t id="L_FINISHED" ver="1">Finished</t>
+<t id="L_FINISH_TIME:" ver="1">Valmistumisaika:</t>
+<t id="L_LINES_SEND:" ver="1">Rivejä lähetetty:</t>
+<t id="L_START_TIME:" ver="1">Aloitusaika:</t>
+<t id="L_STATUS:" ver="1">Tila:</t>
+<t id="L_TOTAL_LINES:" ver="1">Rivejä yhteensä:</t>
+<t id="L_NO_JOB_DEFINED" ver="1">Ei työtä määriteltynä</t>
+<t id="L_RUNNING..." ver="1">Käynnissä ...</t>
+<t id="L_FINISHED" ver="1">Valmis</t>
 <t id="L_ABORTED" ver="1">Keskeytetty</t>
-<t id="W_PRINTER_INFO" ver="1">Printer Information</t>
-<t id="L_CONNECTION_INFORMATION" ver="1">Connection Information</t>
-<t id="L_PRINTER_DATA" ver="1">Printer Data</t>
-<t id="L_BYTES_SEND:" ver="1">Bytes Send:</t>
-<t id="L_ERRORS_RECEIVED:" ver="1">Errors Received:</t>
+<t id="W_PRINTER_INFO" ver="1">Tulostimen tiedot</t>
+<t id="L_CONNECTION_INFORMATION" ver="1">Yhteys tiedot</t>
+<t id="L_PRINTER_DATA" ver="1">Tulostimen data</t>
+<t id="L_BYTES_SEND:" ver="1">Bittejä lähetetty:</t>
+<t id="L_ERRORS_RECEIVED:" ver="1">Virheitä vastaanoettu:</t>
 <t id="L_FIRMWARE:" ver="1">Firmware:</t>
 <t id="L_FIRMWARE_URL:" ver="1">Firmware URL:</t>
-<t id="L_MACHINE_TYPE:" ver="1">Machine Type:</t>
-<t id="L_NUMBER_EXTRUDER:" ver="1">Number of Extruder:</t>
+<t id="L_MACHINE_TYPE:" ver="1">Laitetyyppi:</t>
+<t id="L_NUMBER_EXTRUDER:" ver="1">Suuttimien lukumäärä:</t>
 <t id="L_PROTOCOL:" ver="1">Protocol:</t>
-<t id="L_NOT_VALID_83_FILENAME" ver="1">Not a valid 8.3 filename.</t>
-<t id="W_SD_CARD_UPLOAD" ver="1">SD-Card Upload</t>
-<t id="L_UPLOADED_FILENAME:" ver="1">Uploaded Filename:</t>
-<t id="L_INCLUDE_JOB_FINISHED_COMMANDS" ver="1">Include Job Finished Commands</t>
-<t id="L_INCLUDE_START_END_CODE" ver="1">Include "Start" and "End" Code</t>
-<t id="L_UPLOAD_EXTERNAL_FILE" ver="1">Upload External File</t>
-<t id="L_UPLOAD_CURRENG_GCODE" ver="1">Upload Current G-Code</t>
-<t id="L_FILE:" ver="1">File:</t>
-<t id="W_SAVE_GCODE_DIRECT_PRINT" ver="1">Save G-Code for Direct Print</t>
-<t id="L_SAVE_DIRECT_INFO" ver="1">This save function is meant to generate G-code files that can be run from a sd card. For that reason it can add the start and end code along with the regular finish commands like they are executed during a direct print from the host. All comments and host commands get removed! If you only want to save the G-code in your editor, use the save icon there.</t>
-<t id="L_SAVE_AS_BINARY" ver="1">Save in Binary Format (for Repetier-Firmware)</t>
-<t id="B_SAVE" ver="1">Save</t>
-<t id="W_SD_CARD_MANAGER" ver="1">SD Card Manager</t>
-<t id="L_FILENAME" ver="1">File Name</t>
-<t id="L_SIZE" ver="1">Size</t>
-<t id="L_UPLOAD_FILE" ver="1">Upload File</t>
-<t id="L_DELETE_FILE" ver="1">Delete File</t>
-<t id="L_RUN_CONTINUE_UPLOAD" ver="1">Run Selected File / Continue Paused Print</t>
-<t id="L_STOP_UPLOAD" ver="1">Pause/Stop Running SD Print</t>
-<t id="L_MOUNT_SD_CARD" ver="1">Mount SD Card</t>
-<t id="L_UNMOUNT_SD_CARD" ver="1">Unmount SD Card</t>
-<t id="L_PRINT_FINISHED" ver="1">Print Finished</t>
-<t id="L_UPLOAD_FINISHED" ver="1">Upload Finished</t>
-<t id="L_SD_PRINTING..." ver="1">SD Printing ...</t>
-<t id="L_UPLOAD_FAILED" ver="1">Upload Failed</t>
-<t id="L_FILE_DELETED" ver="1">File Deleted</t>
-<t id="L_DELETE_FAILED" ver="1">Delete Failed</t>
-<t id="L_UPLOADING_FILE..." ver="1">Uploading File ...</t>
-<t id="L_FIRMWARE_NO_DELETE" ver="1">Your firmware doesn't implement file delete or has an unknown implementation.</t>
-<t id="L_PRINT_ABORTED" ver="1">TUlostus keskeytetty</t>
-<t id="L_PRINT_PAUSED" ver="1">Print Paused</t>
-<t id="L_REMOVE_SD_CARD" ver="1">You can remove the sd card.</t>
-<t id="L_INFORMATION" ver="1">Information</t>
-<t id="L_REALLY_DELETE_X" ver="1">Really delete $1</t>
-<t id="SOUND_CONFIGURATION" ver="1">Sound Configuration</t>
-<t id="L_SOUNDS" ver="1">Sounds</t>
-<t id="L_ERROR_SOUND" ver="1">Sound on Errors</t>
-<t id="L_PRINT_FINISHED_SOUND" ver="1">Sound for Print Finished</t>
-<t id="L_PRINT_PAUSED_SOUND" ver="1">Sound for Print Paused</t>
-<t id="L_SOUND_COMMAND_SOUND" ver="1">Sound for @sound Command</t>
-<t id="L_FILE:X" ver="1">File: $1</t>
-<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Select WAV File to Play</t>
-<t id="W_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
-<t id="L_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
-<t id="L_SLIC3R_BLANK_BUNDLE" ver="6">Leave blank to use the bundled or system version.</t>
-<t id="L_SLIC3R_CONFIG_DIR" ver="1">Slic3r Configuration Directory</t>
-<t id="L_SLIC3R_EXECUTABLE" ver="1">Slic3r Executable</t>
-<t id="L_SLIC3R_INFO" ver="1">With these settings, you are able to use different versions of Slic3r. You can get new versions from http://www.slic3r.org The minimum version required is 0.9.0. Leave all fields blank to simply use the bundled version.</t>
-<t id="L_SLIC3R_BLANK_CONFIG" ver="1">Leave blank to use guessed location.</t>
-<t id="W_EEPROM_MARLIN" ver="1">Marlin Firmware EEPROM Settings</t>
-<t id="L_M_ACCELERATION" ver="1">Acceleration:</t>
-<t id="L_M_ADVANCED_VARIABLES" ver="1">Advanced Variables:</t>
-<t id="L_M_HOMING_OFFSET" ver="1">Homing Offset:</t>
-<t id="L_M_MAX_ACCELERATION" ver="1">Maximum Acceleration [mm/s²]:</t>
-<t id="L_M_MAX_FEEDRATE" ver="1">Maximum feedrates [mm/s]:</t>
-<t id="L_M_MAX_XY_JERK" ver="1">Maximum X-Y jerk [mm/s]</t>
-<t id="L_M_MAX_Z_JERK" ver="1">Maximum Z jerk [mm/s]</t>
-<t id="L_M_MIN_FEEDRATE" ver="1">Min feedrate [mm/s]</t>
-<t id="L_M_MIN_SEGMENT_TIME" ver="1">Minimum segment time [ms]</t>
-<t id="L_M_MIN_TRAVEL_FEEDRATE" ver="1">Min travel feedrate [mm/s]</t>
-<t id="L_M_PID_SETTINGS" ver="1">PID settings:</t>
-<t id="L_M_STEPS_PER_MM" ver="1">Steps per mm:</t>
-<t id="L_M_RETRACT_ACCELERATION" ver="1">Retract Acceleration:</t>
-<t id="B_M_LOAD" ver="1">Reload Config</t>
-<t id="B_M_RESTORE" ver="1">Restore factory settings</t>
-<t id="B_M_SAVE" ver="1">Save to EEPROM</t>
-<t id="L_M_CONFIRM_WRITE" ver="1">Settings stored to running config.
-Write Changes to EEPROM?</t>
-<t id="L_M_SETTINGS_STORED" ver="1">Settings Stored</t>
-<t id="L_M_SAVE_RETIEVED" ver="1">Save retrieved changes to EEPROM?</t>
-<t id="L_M_FACTORY_RETRIEVED" ver="1">Factory Settings Retrieved</t>
-<t id="L_SLICING_STL_FILE..." ver="1">Slicing STL File ...</t>
-<t id="L_SKEIN_STILL_RUNNING" ver="1">Last slice job still running. Slicing of new job is canceled.</t>
-<t id="L_SKEIN_KILLED" ver="1">$1 slicing process killed on user request.</t>
-<t id="W_SKEIN_SETTINGS" ver="1">Skeinforge/SFACT Settings</t>
-<t id="L_SKEIN_APPLICARTION" ver="1">Skeinforge Application:</t>
-<t id="L_SKEIN_CRAFT" ver="1">Skeinforge Craft:</t>
-<t id="L_SKEIN_PROFDIR_INFO" ver="1">Select the profiles subdirectory in the skeinforge configuration directory. This is normally HOME/.skeinforge/profiles. For some custom versions like SFACT the path may vary.</t>
-<t id="L_SKEIN_PROFILES_DIRECTORY" ver="1">Profiles Directory:</t>
+<t id="L_NOT_VALID_83_FILENAME" ver="1">Käyttökelvoton 8.3 tiedostonimike.</t>
+<t id="W_SD_CARD_UPLOAD" ver="1">SD-Kortin Lataus</t>
+<t id="L_UPLOADED_FILENAME:" ver="1">Ladattu tiedostonimi:</t>
+<t id="L_INCLUDE_JOB_FINISHED_COMMANDS" ver="1">Lisää Työ Valmis Komentoja</t>
+<t id="L_INCLUDE_START_END_CODE" ver="1">Lisää "Aloitus" ja "Loppu" Koodi</t>
+<t id="L_UPLOAD_EXTERNAL_FILE" ver="1">Lataa ulkoinen tiedosto</t>
+<t id="L_UPLOAD_CURRENG_GCODE" ver="1">Lataa nykyinen G-Koodi</t>
+<t id="L_FILE:" ver="1">Tiedosto:</t>
+<t id="W_SAVE_GCODE_DIRECT_PRINT" ver="1">Tallenna G-Koodi suoratulostusta varten</t>
+<t id="L_SAVE_DIRECT_INFO" ver="1">Tämän tallenustoiminnon tarkoituksena on luoda G-Koodi tiedostoja, joita voidaan suorittaa
+SD-Kortilta. Tästä syystä se voi lisätä Alku- ja Loppu-koodia normaalien Loppu-käskyjen kanssa mahdollistaen samat toiminnot
+kuin Host-ohjelmalla. Kaikki kommentit ja Host-ohjelman komennot poistetaan! Jos haluat tallentaa ainoastaan Editorissa olevan
+G-Koodin, käytä sen omaa tallennuspainiketta.</t>
+<t id="L_SAVE_AS_BINARY" ver="1">Tallenna binaarimuodossa (Repetier-Firmwarelle)</t>
+<t id="B_SAVE" ver="1">Tallenna</t>
+<t id="W_SD_CARD_MANAGER" ver="1">SD Kortin Hallinta</t>
+<t id="L_FILENAME" ver="1">Tiedoston nimi</t>
+<t id="L_SIZE" ver="1">Koko</t>
+<t id="L_UPLOAD_FILE" ver="1">Lataa Tiedosto</t>
+<t id="L_DELETE_FILE" ver="1">Poista Tiedosto</t>
+<t id="L_RUN_CONTINUE_UPLOAD" ver="1">Käynnistä valittu tiedosto / Jatka Keskeytettyä tulostusta</t>
+<t id="L_STOP_UPLOAD" ver="1">Keskeytä/Pysäytä Käynnissä oleva SD Tulostus</t>
+<t id="L_MOUNT_SD_CARD" ver="1">liitä SD Kortti</t>
+<t id="L_UNMOUNT_SD_CARD" ver="1">Irrota SD Kortti</t>
+<t id="L_PRINT_FINISHED" ver="1">Tulostus Valmis</t>
+<t id="L_UPLOAD_FINISHED" ver="1">Lataus Valmis</t>
+<t id="L_SD_PRINTING..." ver="1">SD Tulostus...</t>
+<t id="L_UPLOAD_FAILED" ver="1">Lataus epäonnistui</t>
+<t id="L_FILE_DELETED" ver="1">Tiedosto poistettu</t>
+<t id="L_DELETE_FAILED" ver="1">Poisto epäonnistui</t>
+<t id="L_UPLOADING_FILE..." ver="1">Ladataan tiedostoa...</t>
+<t id="L_FIRMWARE_NO_DELETE" ver="1">Firmwaresi ei salli tiedostojen poistoa tai sillä on tunnistamaton poistotoiminto.</t>
+<t id="L_PRINT_ABORTED" ver="1">Tulostus lopetettu</t>
+<t id="L_PRINT_PAUSED" ver="1">Tulostus keskeytetty</t>
+<t id="L_REMOVE_SD_CARD" ver="1">Voit poistaa SD Kortin.</t>
+<t id="L_INFORMATION" ver="1">Informaatiota</t>
+<t id="L_REALLY_DELETE_X" ver="1">Poista kunnolla $1</t>
+<t id="SOUND_CONFIGURATION" ver="1">Äänien Konfigurointi</t>
+<t id="L_SOUNDS" ver="1">Äänet</t>
+<t id="L_ERROR_SOUND" ver="1">Virheen merkkiääni</t>
+<t id="L_PRINT_FINISHED_SOUND" ver="1">Tulostuksen valmistumisen merkkiääni</t>
+<t id="L_PRINT_PAUSED_SOUND" ver="1">tulostuksen keskeytymisen merkkiääni</t>
+<t id="L_SOUND_COMMAND_SOUND" ver="1">Ääni @sound Komennolle</t>
+<t id="L_FILE:X" ver="1">Tiedosto: $1</t>
+<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Valitse WAV-Tiedosto soitettavaksi</t><t id="W_SLIC3R_SETUP" ver="1">Slic3r Asetukset</t>
+<t id="L_SLIC3R_SETUP" ver="1">Slic3r Asetukset</t>
+<t id="L_SLIC3R_BLANK_BUNDLE" ver="6">Jätä tyhjäksi jos käytetään laitteiston tai ohjelmiston versiota.</t> <!-- Leave blank to use the bundled or system version -->
+<t id="L_SLIC3R_CONFIG_DIR" ver="1">Slic3r Konfiguraation Hakemisto</t>
+<t id="L_SLIC3R_EXECUTABLE" ver="1">Slic3r Suoritettava</t>
+<t id="L_SLIC3R_INFO" ver="1">Näillä asetuksilla voit käyttää Slic3r-ohjelmiston muita versioita. Uusia versioita voit saada osoitteesta http://www.slic3r.org Version minimivaatimus on 0.9.0. Jätä kaikki kentät tyhjiksi käyttääksesi laitteiston versiota.</t>
+<t id="L_SLIC3R_BLANK_CONFIG" ver="1">Jätä tyhjäksi käyttääksesi "arvattua" sijaintia.</t>
+<t id="W_EEPROM_MARLIN" ver="1">Marlin Firmware EEPROM Asetukset</t>
+<t id="L_M_ACCELERATION" ver="1">Kiihdytys:</t>
+<t id="L_M_ADVANCED_VARIABLES" ver="1">Lisämuuttujat:</t>
+<t id="L_M_HOMING_OFFSET" ver="1">Tarkennuksen Kompensaatio:</t> <!-- Homing Offset -->
+<t id="L_M_MAX_ACCELERATION" ver="1">Maksimi kiihtyvyys[mm/s²]:</t>
+<t id="L_M_MAX_FEEDRATE" ver="1">Maksimi Syöttönopeus [mm/s]:</t>
+<t id="L_M_MAX_XY_JERK" ver="1">Maksimi X-Y Nykäisy [mm/s]</t>
+<t id="L_M_MAX_Z_JERK" ver="1">Maksimi Z Nykäisy [mm/s]</t>
+<t id="L_M_MIN_FEEDRATE" ver="1">Minimi Syöttönopeus [mm/s]</t>
+<t id="L_M_MIN_SEGMENT_TIME" ver="1">Minimi Osio Aika [ms]</t>
+<t id="L_M_MIN_TRAVEL_FEEDRATE" ver="1">Minimi Liikkeen Syöttönopeus [mm/s]</t>
+<t id="L_M_PID_SETTINGS" ver="1">PID asetukset:</t>
+<t id="L_M_STEPS_PER_MM" ver="1">Askeleita minuutissa:</t>
+<t id="L_M_RETRACT_ACCELERATION" ver="1">Takaisinvedon kiihtyvyys:</t>
+<t id="B_M_LOAD" ver="1">Uudelleen lataa Konfiguratio</t>
+<t id="B_M_RESTORE" ver="1">Palauta Tehdasasetukset</t>
+<t id="B_M_SAVE" ver="1">Tallenna EEPROM:in</t>
+<t id="L_M_CONFIRM_WRITE" ver="1">Asetukset tallennettu käytössä olevaan Konfiguraatioon.
+Kirjoita muutokset EEPROM:in?</t>
+<t id="L_M_SETTINGS_STORED" ver="1">Asetukset tallennettu</t>
+<t id="L_M_SAVE_RETIEVED" ver="1">Tallenna palautetut asetukset EEPROM:in?</t>
+<t id="L_M_FACTORY_RETRIEVED" ver="1">Tehdasasetukset Palautettu</t>
+<t id="L_SLICING_STL_FILE..." ver="1">Viipaloidaan STL Tiedostoa ...</t>
+<t id="L_SKEIN_STILL_RUNNING" ver="1">Edellinen viipalintityö yhä käynnissä. Uuden työn viipalointi peruutettu.<t>
+<t id="L_SKEIN_KILLED" ver="1">$1 viipalointi prosessi keskeytetty käyttäjän toimesta.<t>
+<t id="W_SKEIN_SETTINGS" ver="1">Skeinforge/SFACT Asetukset</t>
+<t id="L_SKEIN_APPLICARTION" ver="1">Skeinforge Soveltaminen:</t>  <!-- tau Sovelataminen-->
+<t id="L_SKEIN_CRAFT" ver="1">Skeinforge Rakentaja:</t>
+<t id="L_SKEIN_PROFDIR_INFO" ver="1">Valitse profiilin alahakemisto Skeinforgen konfiguraatio Hakemistossa. Tämä on normaalisti HOME/.skeinforge/profiles. Joillain erikoisversioilla kuten SFACT:lla tiedostopolku voi olla erilainen</t>
+<t id="L_SKEIN_PROFILES_DIRECTORY" ver="1">Profiilin Hakemisto:</t>
 <t id="L_SKEIN_PYPY" ver="1">PyPy:</t>
-<t id="L_SKEIN_PYPY_INFO" ver="1">If you have pypy installed, Skeinforge slices will run 3-4 times faster. If you don't have pypy installed, leave it blank and the python interpreter will be used instead. You can get the lastest pypy at http://www.pypy.org/</t>
+<t id="L_SKEIN_PYPY_INFO" ver="1">Jos PyPy in asennettuna Skeinforge pystyy viipaloimaan 3-4 kertaa nopeammin.Jos PyPy:tä ei ole asennettuna jätä tyhjäksi ja sensijaan käytetään Python Interpreteriä. Voit hakea viimeisimmän PyPy:n osoitteesta http://www.pypy.org/</t>
 <t id="L_SKEIN_PYTHON" ver="1">Python Interpreter:</t>
-<t id="L_SKEIN_WORKDIR_INFO" ver="1">The working directory determines, where SFACT will store profiles!</t>
-<t id="L_SKEIN_WORKING_DIRECTORY" ver="1">Working Directory:</t>
-<t id="L_SKEIN_OPEN_FILE" ver="1">Skeinforge Application</t>
+<t id="L_SKEIN_WORKDIR_INFO" ver="1">Työhakemisto määrittää minne SFACT tallentaa profiilit!</t>
+<t id="L_SKEIN_WORKING_DIRECTORY" ver="1">Työhakemisto:</t>
+<t id="L_SKEIN_OPEN_FILE" ver="1">Skeinforge Sovellus</t>
 <t id="L_SKEIN_OPEN_PYTHON" ver="1">Python Interpreter</t>
 <t id="L_SKEIN_OPEN_CRAFT" ver="1">Skeinforge Craft Application</t>
-<t id="L_SKEIN_OPEN_PYPY" ver="1">Pypy Python Interpreter</t>
-<t id="L_SKEIN_SELECT_PROFILE_FOLDER" ver="1">Select profiles Directory</t>
-<t id="L_SKEIN_SELECT_WORKING_FOLDER" ver="1">Select Working Directory</t>
-<t id="L_FEEDRATE:" ver="1">Feedrate:</t>
-<t id="L_FLOWRATE:" ver="1">Flowrate:</t>
-<t id="L_UPDATE_NO_CONNECTION" ver="1">Could not get a connection to the update server!</t>
-<t id="L_MOVE_CAMERA" ver="1">Move Camera</t>
-<t id="L_MOVE_OBJECT" ver="1">Move Object</t>
-<t id="L_MOVE_VIEWPOINT" ver="1">Move Viewpoint</t>
-<t id="L_RESET_VIEW" ver="1">Reset View</t>
-<t id="L_ROTATE" ver="1">Rotate</t>
-<t id="L_TOP_VIEW" ver="1">Top View</t>
-<t id="T_ZOOM_VIEW" ver="1">Zoom</t>
-<t id="T_CLEAR_OBJECTS" ver="1">Clear</t>
-<t id="L_DEBUG_OPTIONS" ver="2">Debug Options</t>
+<t id="L_SKEIN_OPEN_PYPY" ver="1">Pypy Python Interpreter</t><t id="L_SKEIN_SELECT_PROFILE_FOLDER" ver="1">Valitse Profiilihakemisto</t>
+<t id="L_SKEIN_SELECT_WORKING_FOLDER" ver="1">Valitse Työhakemisto</t>
+<t id="L_FEEDRATE:" ver="1">Syöttönopeus:</t>
+<t id="L_FLOWRATE:" ver="1">Virtausnopeus:</t>
+<t id="L_UPDATE_NO_CONNECTION" ver="1">Päivityspalvelimeen ei saatu yhteyttä!</t>
+<t id="L_MOVE_CAMERA" ver="1">Liikuta Kameraa</t>
+<t id="L_MOVE_OBJECT" ver="1">Liikuta Esinettä</t>
+<t id="L_MOVE_VIEWPOINT" ver="1">Liikuta Kuvakulmaa</t>
+<t id="L_RESET_VIEW" ver="1">Palauta Kuvakulma</t>
+<t id="L_ROTATE" ver="1">Kierrä</t>
+<t id="L_TOP_VIEW" ver="1">Yläkuvakulma</t>
+<t id="T_ZOOM_VIEW" ver="1">Zoomaa</t>
+<t id="T_CLEAR_OBJECTS" ver="1">Tyhjennä</t>
+<t id="L_DEBUG_OPTIONS" ver="2">Virheenkorjausvalikko</t>
 <t id="L_X_MIN:" ver="3">X Min</t>
 <t id="L_X_MAX:" ver="3">X Max</t>
 <t id="L_Y_MIN:" ver="3">Y Min</t>
 <t id="L_Y_MAX:" ver="3">Y Max</t>
-<t id="L_BED_LEFT:" ver="3">Bed Left:</t>
-<t id="L_BED_FRONT:" ver="3">Bed Front:</t>
-<t id="L_SHAPE_INFO" ver="3">The min and max values define the possible range of extruder coordinates. These coordinates can be negative and outside the print bed. Bed left/front define the coordinates where the printbed itself starts. By changing the min/max values you can even move the origin in the center of the print bed, if supported by firmware.</t>
-<t id="L_SELECTION_BOX" ver="3">Selection Box:</t>
-<t id="L_FILAMENT_NONE" ver="3">None/Same as Extruder 1</t>
-<t id="L_REALLY_QUIT" ver="3">Printing not finished. Exit anyway?</t>
-<t id="M_DONATE" ver="3">Donate or Support</t>
-<t id="L_FAN" ver="4">Fan</t>
+<t id="L_BED_LEFT:" ver="3">Tulostualusta Vasemmalta:</t>
+<t id="L_BED_FRONT:" ver="3">Tulostualusta Edestä</t>
+<t id="L_SHAPE_INFO" ver="3">Minimi ja maksimi arvot määrittävät Suuttimien mahdolliset koordinaatit. Nämämä koordinaatit voivat olla negatiivisia ja tulostusalustan ulkopuolella. Tulostusalusta Vasemmalta/Edestä määrittää koordinaatit mistä Tulostusalusta itse alkaa. Muuttamalla minimi ja maksimi arvoja voit jopa siirtää nollapisteen tulostusalustan keskipisteeseen, jos firmware sen sallii.</t>
+<t id="L_SELECTION_BOX" ver="3">Valintalaatikko:</t>
+<t id="L_FILAMENT_NONE" ver="3">Eri/Sama Kuin Suutin/Extruder 1</t>
+<t id="L_REALLY_QUIT" ver="3">Tulostus ei ole valmis. Lopeta kuitenkin?</t>
+<t id="M_DONATE" ver="3">Lahjoita tai tue kehitystyötä!</t>
+<t id="L_FAN" ver="4">Tuuletin</t>
 <t id="L_HOME_X:" ver="4">Home X:</t>
 <t id="L_HOME_Y:" ver="4">Home Y:</t>
 <t id="L_HOME_Z:" ver="4">Home Z:</t>
 <t id="L_MIN" ver="4">Min</t>
 <t id="L_MAX" ver="4">Max</t>
-<t id="L_PAUSED_FIRMWARE" ver="4">Your printer requested a pause.</t>
-<t id="L_CREATE_FOLDER" ver="4">Create new Folder</t>
-<t id="L_CREATE_FOLDER_INFO" ver="4">Enter folder name:</t>
-<t id="L_UPLOADING_TIME" ver="4">Uploading time: $1</t>
+<t id="L_PAUSED_FIRMWARE" ver="4">Tulostin lähetti taukokyselyn.</t>
+<t id="L_CREATE_FOLDER" ver="4">Luo uusi Kansio</t>
+<t id="L_CREATE_FOLDER_INFO" ver="4">Syötä Kansion Nimi:</t>
+<t id="L_UPLOADING_TIME" ver="4">Latausaika: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
-<t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Travel visualization disabled</t>
-<t id="M_HIDE_TRAVEL" ver="4">Hide Travel</t>
-<t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Travel visualization enabled</t>
-<t id="M_SHOW_TRAVEL" ver="4">Show Travel</t>
-<t id="L_TRAVEL_MOVES:" ver="4">Travel Moves:</t>
-<t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Disable Travel Move Visualization</t>
-<t id="L_NUMBER_OF_EXTRUDER:" ver="5">Number of Extruder:</t>
-<t id="L_NEW_FOLDER" ver="5">New Folder</t>
-<t id="L_USE_PARALLEL_PROJECTION" ver="5">Use Parallel Projection</t>
-<t id="L_USE_RED_GREEN_SWITCH" ver="5">Use red/green switch buttons (requires restart)</t>
-<t id="L_SLIC3R_NOT_FOUND" ver="6">Slic3r not found.</t>
-<t id="L_ANALYSING_STL" ver="6">Analyzing STL file ...</t>
-<t id="L_SLICING_STL" ver="6">Slicing STL file ...</t>
-<t id="L_PYPY_NOT_FOUND" ver="6">Pypy or Python interpreter not found.</t>
-<t id="L_SKEINCRAFT_NOT_FOUND" ver="6">Skeinforge craft not found.</t>
-<t id="L_PYTHON_NOT_FOUND" ver="6">Python interpreter not found.</t>
-<t id="L_SKEINFORGE_NOT_FOUND" ver="6">Skeinforge not found.</t>
-<t id="L_SKEINCRAFT_PROFILES_NOT_FOUND" ver="6">Skeinforge/SFACT profiles directory not found.</t>
-<t id="B_REFRESH_PORTS" ver="6">Refresh Ports</t>
-<t id="L_ROS_PRINTABLE_HEIGHT:" ver="6">Printable Height:</t>
-<t id="L_ROS_PRINTABLE_RADIUS:" ver="6">Printable Radius:</t>
+<t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Liikkumisen visualisointi pois päältä.</t>
+<t id="M_HIDE_TRAVEL" ver="4">Piilota liikkuminen</t>
+<t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Liikkumisen visualisointi päällä.</t>
+<t id="M_SHOW_TRAVEL" ver="4">Näytä liikkuminen</t>
+<t id="L_TRAVEL_MOVES:" ver="4">Liikkumisen liikkeet:</t>  <!-- travel moves = liikkuminen liikkuu-->
+<t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Poista käytöstä Liikkumisen liikkeiden visualisointi.</t>
+<t id="L_NUMBER_OF_EXTRUDER:" ver="5">Suuttimien lukumäärä:</t>
+<t id="L_NEW_FOLDER" ver="5">Uusi Kansio</t>
+<t id="L_USE_PARALLEL_PROJECTION" ver="5">Käytä Rinnakkaisprojektointia</t>
+<t id="L_USE_RED_GREEN_SWITCH" ver="5">Käytä punainen/Vihreä kytkimiä (vaatii uudelleen käynnistämisen)</t>
+<t id="L_SLIC3R_NOT_FOUND" ver="6">Slic3r ei löytynyt.</t>
+<t id="L_ANALYSING_STL" ver="6">Analysoidaan STL Tiedostoa ...</t>
+<t id="L_SLICING_STL" ver="6">Viipaloidaan STL Tiedostoa ...</t>
+<t id="L_PYPY_NOT_FOUND" ver="6">PyPy:tä tai Python Interpreteriä ei löytynyt.</t>
+<t id="L_SKEINCRAFT_NOT_FOUND" ver="6">Skeinforgen rakentajaa ei löytynyt.</t>
+<t id="L_PYTHON_NOT_FOUND" ver="6">Python Interpreteriä ei löytynyt.</t>
+<t id="L_SKEINFORGE_NOT_FOUND" ver="6">Skeinforgea ei löytynyt.</t>
+<t id="L_SKEINCRAFT_PROFILES_NOT_FOUND" ver="6">Skeinforge/SFACT:n profiilihakemistoa ei löytynyt</t>
+<t id="B_REFRESH_PORTS" ver="6">Virkistä portit</t>
+<t id="L_ROS_PRINTABLE_HEIGHT:" ver="6">Tulostettava Korkeus:</t>
+<t id="L_ROS_PRINTABLE_RADIUS:" ver="6">Tulostettava Säde:</t>
 <t id="L_CARTESIAN_PRINTER" ver="6">Classic Printer</t>
 <t id="L_CARTESIAN_PRINTER_DUMP" ver="6">Classic Printer (with dump area)</t>
 <t id="L_ROSTOCK_CIRCLE" ver="6">Rostock Printer (circular print shape)</t>
 <t id="L_CORRECT_NORMALS" ver="7">Use correct normals (looks better, needs more memory)</t>
-<t id="L_WARNING" ver="8">Warning</t>
-<t id="L_HEATERS_ON_QUEST" ver="8">Some heaters are still on. Shall I disable them?</t>
-<t id="L_OBJECTS_OUTSIDE_SLICE_QUEST" ver="8">At least one object is outside the printable area. Abort slicing?</t>
+<t id="L_WARNING" ver="8">Varoitus!</t>
+<t id="L_HEATERS_ON_QUEST" ver="8"> Osa lämmittimistä on yhä päällä. Kytketäänkö ne pois päältä?</t>
+<t id="L_OBJECTS_OUTSIDE_SLICE_QUEST" ver="8">Vähintäänkin yksi esine on tulostusalueen ulkopuolella. Keskeytä viipalointi?</t>
 <t id="L_CNC_ROUTER" ver="8">CNC Router</t>
-<t id="L_SLIC3R_VERSION" ver="8">Slic3r Version</t>
-<t id="L_MODEL_ERRORS" ver="9">Model Errors:</t>
+<t id="L_SLIC3R_VERSION" ver="8">Slic3r Versio</t>
+<t id="L_MODEL_ERRORS" ver="9">Laite virheet:</t>
 <t id="L_SPLIT" ver="9">Jaa</t>
 <t id="L_YES" ver="9">Kyllä</t>
 <t id="L_NO" ver="9">Ei</t>
@@ -534,50 +537,49 @@ Write Changes to EEPROM?</t>
 Reload objects?]]></t>
 <t id="L_FILES_CHANGED" ver="9">Tiedostot muuttuneet/t>
 <t id="L_INNER_FACES" ver="9">Inner faces:</t>
-<t id="L_BACKGROUND_TOP" ver="9">Background Top:</t>
-<t id="L_BACKGROUND_BOTTOM" ver="9">Background Bottom:</t>
-<t id="L_PRINTER_FRAME" ver="9">Printer Frame:</t>
-<t id="L_ISOMETRIC_VIEW" ver="9">Isometric View</t>
+<t id="L_BACKGROUND_TOP" ver="9">Tausta Ylhäältä:</t>
+<t id="L_BACKGROUND_BOTTOM" ver="9">Tausta Alhaalta:</t>
+<t id="L_PRINTER_FRAME" ver="9">Tulostimen Kehys:</t>																					
+<t id="L_ISOMETRIC_VIEW" ver="9">Isometrinen Näkymä</t>
 <t id="L_BOTTOM_VIEW" ver="9">Näkymä alhaalta</t>
 <t id="L_LEFT_VIEW" ver="9">Näkymä vasemmalta</t>
 <t id="L_RIGHT_VIEW" ver="9">Näkymä oikealta</t>
 <t id="L_FRONT_VIEW" ver="9">Näkymä edestä</t>
-<t id="L_BACK_VIEW" ver="9">Näkymä takaa</t>
-<t id="M_VIEW" ver="9">View</t>
-<t id="M_SHOW_EDGES" ver="9">Show Edges</t>
-<t id="M_SHOW_FACES" ver="9">Show Faces</t>
-<t id="L_ANA_MODIFIED" ver="9">Modified:</t>
-<t id="L_ANA_MANIFOLD" ver="9">Manifold:</t>
-<t id="L_ANA_INTERSECTING_TRIANGLES" ver="9">Intersecting triangles:</t>
-<t id="L_ANA_NORMALS" ver="9">Normals:</t>
-<t id="L_ANA_LOOP_EDGES" ver="9">Loop Edges:</t>
-<t id="L_ANA_HIGHLY_CONNECTED" ver="9">Highly Connected Edges:</t>
-<t id="L_ANA_VERTICES" ver="9">Points:</t>
-<t id="L_ANA_EDGES" ver="9">Edges:</t>
-<t id="L_ANA_FACES" ver="9">Faces:</t>
-<t id="L_ANA_SHELLS" ver="9">Shells:</t>
-<t id="L_ANA_ORIENTED" ver="9">Oriented</t>
-<t id="L_ANA_NOT_ORIENTED" ver="9">Not Oriented</t>
-<t id="M_TOOLS" ver="9">Tools</t>
-<t id="M_BELT_CALCULATOR" ver="9">Belt Calculator</t>
-<t id="M_LEADSCREW_CALCULATOR" ver="9">Leadscrew Calculator</t>
-<t id="L_MOTOR_STEP_ANGLE" ver="9">Motor step angle</t>
-<t id="L_DRIVER_MICROSTEPPING" ver="9">Driver Microstepping</t>
-<t id="L_BELT_PITCH" ver="9">Belt Pitch</t>
-<t id="L_TOOTH_COUNT" ver="9">Tooth Count</t>
-<t id="B_CALCULATE" ver="9">Calculate</t>
-<t id="L_STEPS_PER_MM" ver="9">Value for steps per mm</t>
-<t id="L_TOOTH_COUNT_MUST_INT" ver="9">Tooth Count must be int</t>
-<t id="L_LEADSCREW_PITCH" ver="9">Leadscrew pitch</t>
-<t id="L_GEAR_RATIO" ver="9">Gear ratio</t>
-<t id="L_SERIAL_CONNECTION" ver="9">Serial Connection</t>
-<t id="L_VIRTUAL_CONNECTION" ver="9">Virtual Printer</t>
+<t id="L_BACK_VIEW" ver="9">Näkymä takaa</t><t id="M_VIEW" ver="9">Näkymä</t>
+<t id="M_SHOW_EDGES" ver="9">Näytä Reunat</t>
+<t id="M_SHOW_FACES" ver="9">Näytä Sivut</t>
+<t id="L_ANA_MODIFIED" ver="9">Muokattu:</t>
+<t id="L_ANA_MANIFOLD" ver="9">Kokonaisuus:</t>
+<t id="L_ANA_INTERSECTING_TRIANGLES" ver="9">Leikkaavat kolmiot:</t>
+<t id="L_ANA_NORMALS" ver="9">Normaalit:</t>
+<t id="L_ANA_LOOP_EDGES" ver="9">Yhdistä Reunat:</t>
+<t id="L_ANA_HIGHLY_CONNECTED" ver="9">Runsaasti Yhdistettyjä Reunoja:</t>                   													
+<t id="L_ANA_VERTICES" ver="9">Pisteet:</t>
+<t id="L_ANA_EDGES" ver="9">Reunat:</t>
+<t id="L_ANA_FACES" ver="9">Sivut:</t>
+<t id="L_ANA_SHELLS" ver="9">Kuoret:</t>
+<t id="L_ANA_ORIENTED" ver="9">Orientoitu</t>
+<t id="L_ANA_NOT_ORIENTED" ver="9">Ei Orientoitu</t>
+<t id="M_TOOLS" ver="9">Työkalut</t>
+<t id="M_BELT_CALCULATOR" ver="9">Hihnalaskuri</t>
+<t id="M_LEADSCREW_CALCULATOR" ver="9">Leadscrew Calculator</t>                                                <!-- -->
+<t id="L_MOTOR_STEP_ANGLE" ver="9">Moottirin Askelkulma</t>
+<t id="L_DRIVER_MICROSTEPPING" ver="9">Driver Microstepping</t>													 <!-- -->
+<t id="L_BELT_PITCH" ver="9">Hihnan Kaltevuus</t>
+<t id="L_TOOTH_COUNT" ver="9">Rataslaskuri</t>
+<t id="B_CALCULATE" ver="9">Laske</t>
+<t id="L_STEPS_PER_MM" ver="9">Askeleita/Millimetriä Arvo</t>
+<t id="L_TOOTH_COUNT_MUST_INT" ver="9">Rataslaskurin arvon tulee olla int-muodossa</t>
+<t id="L_LEADSCREW_PITCH" ver="9">Leadscrew pitch</t>															<!-- -->
+<t id="L_GEAR_RATIO" ver="9">Gear ratio</t>																	<!-- -->
+<t id="L_SERIAL_CONNECTION" ver="9">Sarjaporttiyhteys</t>
+<t id="L_VIRTUAL_CONNECTION" ver="9">Virtuaalitulostin</t>
 <t id="L_REPETIER_SERVER_CONNECTION" ver="9">Repetier-Server</t>
-<t id="L_CONNECTOR" ver="9">Connector</t>
-<t id="L_DISABLED" ver="9">Disabled</t>
-<t id="L_DTR_LOW_HIGH" ver="9">DTR high->low</t>
-<t id="L_DTR_LOW_HIGH_LOW" ver="9">DTR low->high->low</t>
-<t id="L_DTR_TOGGLE" ver="9">DTR toggle</t>
+<t id="L_CONNECTOR" ver="9">Liitin</t>					
+<t id="L_DISABLED" ver="9">Poissa Käytöstä</t>
+<t id="L_DTR_LOW_HIGH" ver="9">DTR korkea->matala</t>
+<t id="L_DTR_LOW_HIGH_LOW" ver="9">DTR matala->korkea->matala</t>
+<t id="L_DTR_TOGGLE" ver="9">DTR Kytkin</t>
 <t id="L_RESET_ON_CONNECT" ver="9">Reset on Connect</t>
 <t id="L_RESET_ON_EMERGENCY" ver="9">Reset on Emergency</t>
 <t id="L_SEND_EMERGENCY_CMD" ver="9">Send emergency command</t>
