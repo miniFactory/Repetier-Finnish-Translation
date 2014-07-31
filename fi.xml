@@ -41,7 +41,7 @@
 <t id="M_JOB_STATUS" ver="1">Työn tila</t>
 <t id="M_SD_CARD_MANAGER" ver="1">SD-Kortin hallinta</t>
 <t id="L_SD_CARD_MANAGEMENT" ver="1">SD-Kortin hallinta</t>
-<t id="M_TEST_CASE_GENERATOR" ver="1">Testitapausgeneraattori</t>
+<t id="M_TEST_CASE_GENERATOR" ver="1">Test Case Generator</t>
 <t id="M_SEND_SCRIPT_1" ver="1">Lähetä skripti 1</t>
 <t id="M_SEND_SCRIPT_2" ver="1">Lähetä skripti 2</t>
 <t id="M_SEND_SCRIPT_3" ver="1">Lähetä skripti 3</t>
@@ -144,7 +144,7 @@ komennon @pause haluttuun kohtaan G-koodia.</t>
 <t id="L_PRINT_JOB_FINISHED" ver="1">Tulostustyö valmis</t>
 <t id="L_UPLOADING..." ver="1">Lähettää ... $1%</t>
 <t id="L_PRINTING_JOB_ETA" ver="1">Tulostustyön ETA $1</t>
-<t id="L_IDLE" ver="1">Vapaa</t>
+<t id="L_IDLE" ver="1">Idle</t>
 <t id="L_X_COMMANDS_WAITING" ver="1">$1 Komento jonossa</t>
 <t id="L_EXTRUDER:" ver="1">Suutin:</t>
 <t id="L_BED:" ver="1">Tulostusalusta:</t>
@@ -301,9 +301,9 @@ there will be a file repetier.log after the program is closed. Starting the prog
 old log file! The logfile conatins all communication with the printer, even if disabled in the log
 view. Logging changes are active after next start.</t>
 <t id="L_LOG_SESSION" ver="1">Log Session</t>
-<t id="REDUCE_TOOLBAR_SIZE" ver="1">Pienennä työkalupalkki</t>
+<t id="REDUCE_TOOLBAR_SIZE" ver="1">Reduce Toolbar Size</t>
 <t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Poista laadun heikennys käytöstä</t>
-<t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Olemassa oleva työhakemisto vaaditaan!</t>
+<t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Existing work directory required!</t>
 <t id="L_WORKDIR:" ver="1">Työhakemisto:</t>
 <t id="B_BROWSE" ver="1">Selaa...</t>
 <t id="L_SELECT_WORKING_DIRECTORY" ver="1">Valitse työhakemisto</t>
@@ -312,110 +312,110 @@ view. Logging changes are active after next start.</t>
 <t id="L_COLORS" ver="1">Värit</t>
 <t id="L_EDITOR" ver="1">Editori</t>
 <t id="L_VISUALIZATION" ver="1">Visualisointi:</t>
-<t id="L_AMBIENT_COLOR" ver="1">Vallitseva väri:</t>
+<t id="L_AMBIENT_COLOR" ver="1">Ambient Color:</t>
 <t id="L_BACKGROUND" ver="1">Tausta:</t>
-<t id="L_DIFFUSE_COLOR" ver="1">Hämäräväri:</t>
-<t id="L_DRAW_METHOD" ver="1">Piirtotapa:<t/>	
-<t id="L_EDGES" ver="1">Reunat:</t>
+<t id="L_DIFFUSE_COLOR" ver="1">Diffuse Color:</t>
+<t id="L_DRAW_METHOD" ver="1">Draw Method:</t>
+<t id="L_EDGES" ver="1">Edges:</t>
 <t id="L_EXTRUDER_X:" ver="1">Suutin $1:</t>
-<t id="L_FACES" ver="1">Tahkot:</t>
-<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">Tulostusnauhan muoto lasketaan joko kerroksen korkeuden ja leveyden suhteesta korkeuteen tai 
-nauhan halkaisijan ja leveyden suhteesta korkeuteen ja G-koodin E arvojen mukaan. Jälkimmäinen versio antaa paremman tuloksen, jos
-kerroskorkkeus muuttuu.</t>
-<t id="L_FILAMENT_VISUALIZATION" ver="1">Nauhan visualisointi:</t>
+<t id="L_FACES" ver="1">Faces:</t>
+<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">The shape of the filament is computed either by layer height and width over thickness or from the
+filament diameter, width over thickness and E values in the G-Code. The second version gives
+better results, if the layer height changes, which can happen in newer Skeinforge versions.</t>
+<t id="L_FILAMENT_VISUALIZATION" ver="1">Filament Visualization:</t>
 <t id="L_HOT_FILAMENT" ver="1">Kuuma muovi:</t>
 <t id="L_HOT_FILAMENT_LENGTH" ver="1">Kuuman muovin pituus:</t>
 <t id="L_LIGHT_X" ver="1">Valo $1</t>
 <t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Kappale tulostusalueen ulkopuolella</t>
 <t id="L_PRINTER_BASE" ver="1">Printer Base:</t>
-<t id="L_SELECTED_FACES" ver="1">Valitut tahkot:</t>
-<t id="L_SELECTED_FILAMENT" ver="1">Valitut nauhat:</t>
-<t id="L_SPECULAR_COLOR" ver="1">Heijastusväri:</t>
-<t id="L_WIDTH_OVER_THICKNESS" ver="1">Leveys paksuuden suhteen:</t>
-<t id="L_X_DIRECTION" ver="1">X Suunta:</t>
-<t id="L_Y_DIRECTION" ver="1">Y Suunta:</t>
-<t id="L_Z_DIRECTION" ver="1">Z Suunta:</t>
-<t id="L_DISABLE_FILAMENT_VISUALIZATION" ver="1">Nauhan visualisointi pois</t>
-<t id="L_ENABLE_LIGHT" ver="1">Valo päälle</t>
-<t id="L_SHOW_EDGES" ver="1">Näytä reunat</t>
-<t id="L_SHOW_FACES" ver="1">Näytä tahkot</t>
-<t id="L_SHOW_PRINTBED" ver="1">Näytä tulostusalusta</t>
-<t id="L_PULSE_OBJECT_IF_NOT_PRINTABLE" ver="1">Syki jos kappaletta ei voi tulostaa</t>
+<t id="L_SELECTED_FACES" ver="1">Selected Faces:</t>
+<t id="L_SELECTED_FILAMENT" ver="1">Selected Filament:</t>
+<t id="L_SPECULAR_COLOR" ver="1">Specular Color:</t>
+<t id="L_WIDTH_OVER_THICKNESS" ver="1">Width over Thickness:</t>
+<t id="L_X_DIRECTION" ver="1">X Direction:</t>
+<t id="L_Y_DIRECTION" ver="1">Y Direction:</t>
+<t id="L_Z_DIRECTION" ver="1">Z Direction:</t>
+<t id="L_DISABLE_FILAMENT_VISUALIZATION" ver="1">Disable Filament Visualization</t>
+<t id="L_ENABLE_LIGHT" ver="1">Enable Light</t>
+<t id="L_SHOW_EDGES" ver="1">Show Edges</t>
+<t id="L_SHOW_FACES" ver="1">Show Faces</t>
+<t id="L_SHOW_PRINTBED" ver="1">Show Print Bed</t>
+<t id="L_PULSE_OBJECT_IF_NOT_PRINTABLE" ver="1">Pulse if Object not Printable</t>
 <t id="TAB_GENERAL" ver="1">Yleinen</t>
-<t id="TAB_FILAMENT" ver="1">Nauha</t>
+<t id="TAB_FILAMENT" ver="1">Filament</t>
 <t id="TAB_MODEL" ver="1">Malli</t>
 <t id="TAB_LIGHTS" ver="1">Valot</t>
-<t id="L_LAYER_HEIGHT" ver="1">Kerroksen paksuus:</t>
-<t id="L_FILAMENT_DIAMETER" ver="1">Nauhan läpimitta:</t>
-<t id="L_DRAW_METHOD_AUTODETECT" ver="1">Tunnista paras</t>
-<t id="L_DRAW_METHOD_VBOS" ver="1">VBOt (Nopein)</t>
-<t id="L_DRAW_METHOD_ARRAYS" ver="1">Taulukot (Keskitaso)</t>
-<t id="L_DRAW_METHOD_IMMEDIATE" ver="1">Välitön (Hidas)</t>
-<t id="W_JOB_STATUS" ver="1">Työn tila</t>
+<t id="L_LAYER_HEIGHT" ver="1">Layer Height:</t>
+<t id="L_FILAMENT_DIAMETER" ver="1">Filament Diameter:</t>
+<t id="L_DRAW_METHOD_AUTODETECT" ver="1">Autodetect Best</t>
+<t id="L_DRAW_METHOD_VBOS" ver="1">VBOs (Fastest)</t>
+<t id="L_DRAW_METHOD_ARRAYS" ver="1">Arrays (Medium)</t>
+<t id="L_DRAW_METHOD_IMMEDIATE" ver="1">Immediate (Slow)</t>
+<t id="W_JOB_STATUS" ver="1">Job Status</t>
 <t id="L_ETA:" ver="1">ETA:</t>
-<t id="L_FINISH_TIME:" ver="1">Loppuaika:</t>
-<t id="L_LINES_SEND:" ver="1">Rivejä lähetetty:</t>
-<t id="L_START_TIME:" ver="1">Alkuaika:</t>
-<t id="L_STATUS:" ver="1">Tila:</t>
-<t id="L_TOTAL_LINES:" ver="1">Rivejä yhteensä:</t>
-<t id="L_NO_JOB_DEFINED" ver="1">Työtä ei määritetty</t>
-<t id="L_RUNNING..." ver="1">Käynnissä...</t>
-<t id="L_FINISHED" ver="1">Valmis</t>
+<t id="L_FINISH_TIME:" ver="1">Finish Time:</t>
+<t id="L_LINES_SEND:" ver="1">Lines Send:</t>
+<t id="L_START_TIME:" ver="1">Start Time:</t>
+<t id="L_STATUS:" ver="1">Status:</t>
+<t id="L_TOTAL_LINES:" ver="1">Total Lines:</t>
+<t id="L_NO_JOB_DEFINED" ver="1">No Job Defined</t>
+<t id="L_RUNNING..." ver="1">Running ...</t>
+<t id="L_FINISHED" ver="1">Finished</t>
 <t id="L_ABORTED" ver="1">Keskeytetty</t>
-<t id="W_PRINTER_INFO" ver="1">Tulostimen tiedot</t>
-<t id="L_CONNECTION_INFORMATION" ver="1">Yhteyden tiedot</t>
-<t id="L_PRINTER_DATA" ver="1">Tulostindata</t>
-<t id="L_BYTES_SEND:" ver="1">Tavuja lähetetty:</t>
-<t id="L_ERRORS_RECEIVED:" ver="1">Vastaanottovirheitä:</t>
+<t id="W_PRINTER_INFO" ver="1">Printer Information</t>
+<t id="L_CONNECTION_INFORMATION" ver="1">Connection Information</t>
+<t id="L_PRINTER_DATA" ver="1">Printer Data</t>
+<t id="L_BYTES_SEND:" ver="1">Bytes Send:</t>
+<t id="L_ERRORS_RECEIVED:" ver="1">Errors Received:</t>
 <t id="L_FIRMWARE:" ver="1">Firmware:</t>
 <t id="L_FIRMWARE_URL:" ver="1">Firmware URL:</t>
-<t id="L_MACHINE_TYPE:" ver="1">Koneen tyyppi:</t>
-<t id="L_NUMBER_EXTRUDER:" ver="1">Suuttimien määrä:</t>
-<t id="L_PROTOCOL:" ver="1">Protokolla:</t>
-<t id="L_NOT_VALID_83_FILENAME" ver="1">Tiedoston nimi ei 8.3 muodossa.</t>
-<t id="W_SD_CARD_UPLOAD" ver="1">SD-kortti lähetys</t>
-<t id="L_UPLOADED_FILENAME:" ver="1">Lähettytiedosto:</t>
-<t id="L_INCLUDE_JOB_FINISHED_COMMANDS" ver="1">Sisällytä työnpäättökomennot</t>
-<t id="L_INCLUDE_START_END_CODE" ver="1">Sisällytä "Aloitus" ja "lopetus" koodi</t>
-<t id="L_UPLOAD_EXTERNAL_FILE" ver="1">Lähetä ulkoinen tiedosto</t>
-<t id="L_UPLOAD_CURRENG_GCODE" ver="1">Lähetä nykyinen G-koodi</t>
-<t id="L_FILE:" ver="1">Tiedosto:</t>
-<t id="W_SAVE_GCODE_DIRECT_PRINT" ver="1">Tallenna G-koodi suoratulostusta varten</t>
+<t id="L_MACHINE_TYPE:" ver="1">Machine Type:</t>
+<t id="L_NUMBER_EXTRUDER:" ver="1">Number of Extruder:</t>
+<t id="L_PROTOCOL:" ver="1">Protocol:</t>
+<t id="L_NOT_VALID_83_FILENAME" ver="1">Not a valid 8.3 filename.</t>
+<t id="W_SD_CARD_UPLOAD" ver="1">SD-Card Upload</t>
+<t id="L_UPLOADED_FILENAME:" ver="1">Uploaded Filename:</t>
+<t id="L_INCLUDE_JOB_FINISHED_COMMANDS" ver="1">Include Job Finished Commands</t>
+<t id="L_INCLUDE_START_END_CODE" ver="1">Include "Start" and "End" Code</t>
+<t id="L_UPLOAD_EXTERNAL_FILE" ver="1">Upload External File</t>
+<t id="L_UPLOAD_CURRENG_GCODE" ver="1">Upload Current G-Code</t>
+<t id="L_FILE:" ver="1">File:</t>
+<t id="W_SAVE_GCODE_DIRECT_PRINT" ver="1">Save G-Code for Direct Print</t>
 <t id="L_SAVE_DIRECT_INFO" ver="1">This save function is meant to generate G-code files that can be run from a sd card. For that reason it can add the start and end code along with the regular finish commands like they are executed during a direct print from the host. All comments and host commands get removed! If you only want to save the G-code in your editor, use the save icon there.</t>
-<t id="L_SAVE_AS_BINARY" ver="1">Tallenna binäärimuodossa (Repetier-Firmware)</t>
-<t id="B_SAVE" ver="1">Tallenna</t>
-<t id="W_SD_CARD_MANAGER" ver="1">SD-kortin hallinta</t>
-<t id="L_FILENAME" ver="1">Tiedoston nimi</t>
-<t id="L_SIZE" ver="1">Koko</t>
-<t id="L_UPLOAD_FILE" ver="1">Lähetä tiedosto</t>
-<t id="L_DELETE_FILE" ver="1">Poista tiedosto</t>
-<t id="L_RUN_CONTINUE_UPLOAD" ver="1">Suorita valitta tiedosto / Jatka pysäytetty tulostusta</t>
-<t id="L_STOP_UPLOAD" ver="1">Pysäytä/Keskeytä käynnissä oleva SD-kortilta tulostus</t>
-<t id="L_MOUNT_SD_CARD" ver="1">Kiinnitä SD-kortti</t>
-<t id="L_UNMOUNT_SD_CARD" ver="1">Irrota SD-kortti</t>
-<t id="L_PRINT_FINISHED" ver="1">Tulostus valmis</t>
-<t id="L_UPLOAD_FINISHED" ver="1">Lähetys valmis</t>
-<t id="L_SD_PRINTING..." ver="1">Tulostetaan SD-kortilta ...</t>
-<t id="L_UPLOAD_FAILED" ver="1">Lähetys epäonnistui</t>
-<t id="L_FILE_DELETED" ver="1">Tiedosto poistettu</t>
-<t id="L_DELETE_FAILED" ver="1">Poisto epäonnistui</t>
-<t id="L_UPLOADING_FILE..." ver="1">Lähetetään tiedostoa ...</t>
+<t id="L_SAVE_AS_BINARY" ver="1">Save in Binary Format (for Repetier-Firmware)</t>
+<t id="B_SAVE" ver="1">Save</t>
+<t id="W_SD_CARD_MANAGER" ver="1">SD Card Manager</t>
+<t id="L_FILENAME" ver="1">File Name</t>
+<t id="L_SIZE" ver="1">Size</t>
+<t id="L_UPLOAD_FILE" ver="1">Upload File</t>
+<t id="L_DELETE_FILE" ver="1">Delete File</t>
+<t id="L_RUN_CONTINUE_UPLOAD" ver="1">Run Selected File / Continue Paused Print</t>
+<t id="L_STOP_UPLOAD" ver="1">Pause/Stop Running SD Print</t>
+<t id="L_MOUNT_SD_CARD" ver="1">Mount SD Card</t>
+<t id="L_UNMOUNT_SD_CARD" ver="1">Unmount SD Card</t>
+<t id="L_PRINT_FINISHED" ver="1">Print Finished</t>
+<t id="L_UPLOAD_FINISHED" ver="1">Upload Finished</t>
+<t id="L_SD_PRINTING..." ver="1">SD Printing ...</t>
+<t id="L_UPLOAD_FAILED" ver="1">Upload Failed</t>
+<t id="L_FILE_DELETED" ver="1">File Deleted</t>
+<t id="L_DELETE_FAILED" ver="1">Delete Failed</t>
+<t id="L_UPLOADING_FILE..." ver="1">Uploading File ...</t>
 <t id="L_FIRMWARE_NO_DELETE" ver="1">Your firmware doesn't implement file delete or has an unknown implementation.</t>
-<t id="L_PRINT_ABORTED" ver="1">Tulostus keskeytetty</t>
-<t id="L_PRINT_PAUSED" ver="1">Tulostus pysäytetty</t>
-<t id="L_REMOVE_SD_CARD" ver="1">Voit poistaa SD-kortin.</t>
-<t id="L_INFORMATION" ver="1">Tietoja</t>
-<t id="L_REALLY_DELETE_X" ver="1">Poistetaanko $1</t>
-<t id="SOUND_CONFIGURATION" ver="1">Ääniasetukset</t>
-<t id="L_SOUNDS" ver="1">Äänet</t>
-<t id="L_ERROR_SOUND" ver="1">Ääni virhetapauksessa</t>
-<t id="L_PRINT_FINISHED_SOUND" ver="1">Ääni tulostuksen valmistuttua</t>
-<t id="L_PRINT_PAUSED_SOUND" ver="1">Ääni tulostuksen pysäytyksessä</t>
-<t id="L_SOUND_COMMAND_SOUND" ver="1">Ääni @sound -komennolle</t>
-<t id="L_FILE:X" ver="1">Tiedosto: $1</t>
-<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Valitse soitettava WAV-tiedosto</t>
-<t id="W_SLIC3R_SETUP" ver="1">Slic3r asetukset</t>
-<t id="L_SLIC3R_SETUP" ver="1">Slic3r asetukset</t>
+<t id="L_PRINT_ABORTED" ver="1">TUlostus keskeytetty</t>
+<t id="L_PRINT_PAUSED" ver="1">Print Paused</t>
+<t id="L_REMOVE_SD_CARD" ver="1">You can remove the sd card.</t>
+<t id="L_INFORMATION" ver="1">Information</t>
+<t id="L_REALLY_DELETE_X" ver="1">Really delete $1</t>
+<t id="SOUND_CONFIGURATION" ver="1">Sound Configuration</t>
+<t id="L_SOUNDS" ver="1">Sounds</t>
+<t id="L_ERROR_SOUND" ver="1">Sound on Errors</t>
+<t id="L_PRINT_FINISHED_SOUND" ver="1">Sound for Print Finished</t>
+<t id="L_PRINT_PAUSED_SOUND" ver="1">Sound for Print Paused</t>
+<t id="L_SOUND_COMMAND_SOUND" ver="1">Sound for @sound Command</t>
+<t id="L_FILE:X" ver="1">File: $1</t>
+<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Select WAV File to Play</t>
+<t id="W_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
+<t id="L_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
 <t id="L_SLIC3R_BLANK_BUNDLE" ver="6">Leave blank to use the bundled or system version.</t>
 <t id="L_SLIC3R_CONFIG_DIR" ver="1">Slic3r Configuration Directory</t>
 <t id="L_SLIC3R_EXECUTABLE" ver="1">Slic3r Executable</t>
