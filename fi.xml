@@ -1638,6 +1638,17 @@ so closing the gap.</t>
     haluttua tuotantovolyymia. Normaali volyymi on noin 12mm³/s.
     Mitä suuremmaksi tulostusnopeus kasvaa, sitä enemmän tarvitaan
     lämmitystehoa ja syöttömoottorilta voimaa työntää tulostusnauha
-    suuttimen läpi.
-  </t>
-</translation>
+    suuttimen läpi.</t>
+<t id="L_SHOW_TRAVEL_MOVES" ver="11">Show Travel Moves</t>
+  <t id="L_PRINTING_STATISTICS" ver="11">Printing Statistics</t>
+  <t id="L_POSTPROCESSING..." ver="11">Postprocessing ...</t>
+  <t id="L_PRINTER_HAS_SD_CARD" ver="11">Printer has SD card</t>
+  <t id="L_IMPORT" ver="11">Import</t>
+  <t id="L_EXPORT" ver="11">Export</t>
+  <t id="L_PRINT_SETTINGS_ALREADY_EXIST" ver="11">Print setting with that name already exists. Did not save.</t>
+  <t id="L_SAVE_PRINT_SETTINGS_AS" ver="11">Save print settings as</t>
+  <t id="L_SELECT_SETTING_NAME" ver="11">Select setting name</t>
+  <t id="L_REALLY_DELETE_FILAMENT_SETTING" ver="11">Really delete filament setting?</t>
+  <t id="L_SAVE_FILAMENT_SETTINGS_AS" ver="11">Save Filament settings as</t>
+  <t id="L_FILAMENT_SETTINGS_ALREADY_EXIST" ver="11">Filament setting with that name already exists. Did not save.</t>
+  <t id="L_PRINTING..ETE" ver="11">Printing...ETE $1</t>
