@@ -1652,3 +1652,19 @@ so closing the gap.</t>
   <t id="L_SAVE_FILAMENT_SETTINGS_AS" ver="11">Save Filament settings as</t>
   <t id="L_FILAMENT_SETTINGS_ALREADY_EXIST" ver="11">Filament setting with that name already exists. Did not save.</t>
   <t id="L_PRINTING..ETE" ver="11">Printing...ETE $1</t>
+  <t id="MF_Z_CALIBRATION" ver="1">Z-kalibrointi</t>
+  <t id="MF_INTRODUCTION" ver="1">Kalibroi suuttimen aloituskorkeus aina, kun
+  liikutat laitetta tai vaihdat tulostusalustaa.</t>
+  <t id="MF_CALIB_WARNING" ver="1">Varmista, että tulostusalue on tyhjä ennen kalibroinnin aloittamista!</t>
+  <t id="MF_CALIB_STEP1" ver="1">Vaihe 1. Laita normaali A4 paperiarkki tulostusalustalle
+  ja paina 'Start' -nappia.</t>
+  <t id="MF_CALIB_STEP23" ver="1">
+  Vaihe 2. Aja suutinta ylös/alas, kunnes paperiarkki kevyesti hankaa suuttimen ja lasilevyn välissä.
+
+  Vaihe 3. Kun olet valmis, tallenna aloituskorkeus painamalla 'Ready' -nappia.
+  </t>
+  <t id="MF_CALIB_TIP" ver="1">VINKKI: Voit tehdä pieniä muutoksia suoraan aloituskorkeuteen
+  Config -> Firmware Eeprom configuration valikon kautta. 
+  Muutokset tehdään muokkaamalla Homing Z-offset arvoa.</t>
+  <t id="MF_CALIB_RESULT" ver="1">Kalibrointi valmis! Kalibrointi 
+  arvo oli $1 mm ja Z-akselin maksimikorkeus on nyt $2 mm.</t> 
